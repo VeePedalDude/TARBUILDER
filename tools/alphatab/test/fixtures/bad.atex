@@ -1,0 +1,13 @@
+// Deliberately broken: overfull bar 1, short bar 2, fret 30, bass shorter than guitar.
+\title ("Bad")
+\tempo (120)
+\track ("Gtr")
+\staff {tabs}
+\tuning (E4 B3 G3 D3 A2 E2)
+:8 0.6 0.6 3.6 0.6 5.6 0.6 3.6 5.6 :4 1.1 |
+:4 3.6 30.1 2.2 |
+:1 0.6
+\track ("Bass")
+\staff {tabs}
+\tuning (G2 D2 A1 E1)
+:1 0.4

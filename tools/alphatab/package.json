@@ -1,0 +1,17 @@
+{
+  "name": "tarbuilder-alphatab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "alphaTex -> Guitar Pro 7 (.gp) builder, checker and dumper for TARBUILDER",
+  "type": "module",
+  "bin": { "tarb": "bin/tarb.mjs" },
+  "scripts": {
+    "test": "node test/test.mjs",
+    "examples": "node bin/tarb.mjs build ../../examples/*.atex --midi"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@coderline/alphatab": "1.9.0",
+    "fflate": "0.8.2"
+  }
+}

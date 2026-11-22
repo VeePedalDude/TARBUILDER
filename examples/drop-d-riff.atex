@@ -1,0 +1,36 @@
+// TARBUILDER example: drop-D riff, lead + bass + drums, 4/4 at 132 BPM.
+// String numbers: 1 = highest string. Notes are fret.string, durations prefix with :N
+\title ("Drop D Example")
+\artist ("VeePedalDude")
+\tempo (132)
+
+\track ("Guitar" "Gtr") { instrument distortionguitar }
+\staff {tabs score}
+\tuning (E4 B3 G3 D3 A2 D2)
+\ts (4 4)
+\section ("Riff")
+\ro
+:8 0.6{pm} 0.6{pm} 3.6 0.6{pm} 5.6 0.6{pm} 3.6{h} 5.6 |
+:8 0.6{pm} 0.6{pm} 3.6 0.6{pm} :4 (7.6 7.5 7.4) (5.6{lr} 5.5{lr} 5.4{lr}) |
+\rc (2)
+\section ("Lead")
+:4 7.3{b (0 4)} :8 7.3 5.3 :4 7.2{v} 5.2 |
+:2 (0.6{lr} 0.5{lr} 0.4{lr}) :4 r 12.1{v}
+
+\track ("Bass") { instrument electricbassfinger }
+\staff {tabs}
+\tuning (G2 D2 A1 D1)
+\clef (F4)
+:8 0.4 0.4 3.4 0.4 5.4 0.4 3.4 5.4 |
+:8 0.4 0.4 3.4 0.4 :4 7.4 5.4 |
+:4 5.3 :8 5.3 3.3 :4 5.2 3.2 |
+:2 0.4 :2 r
+
+\track ("Drums") { instrument percussion }
+\staff {score}
+\clef (neutral)
+\articulation defaults
+:8 (KickHit HiHatClosed) HiHatClosed (SnareHit HiHatClosed) HiHatClosed (KickHit HiHatClosed) (KickHit HiHatClosed) (SnareHit HiHatClosed) HiHatClosed |
+:8 (KickHit HiHatClosed) HiHatClosed (SnareHit HiHatClosed) HiHatClosed (KickHit CrashMediumHit) KickHit (SnareHit) SnareHit |
+:4 (KickHit RideMiddle) (SnareHit RideMiddle) (KickHit RideMiddle) (SnareHit RideMiddle) |
+:2 (KickHit CrashMediumHit) :2 r
