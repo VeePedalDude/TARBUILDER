@@ -1,0 +1,171 @@
+{
+ "title": "Golden Steps",
+ "artist": "VeePedalDude",
+ "tempo": 96,
+ "ppq": 960,
+ "grid": 120,
+ "meter": {
+  "num": 4,
+  "den": 4
+ },
+ "meterChanges": [],
+ "tempoChanges": [],
+ "key": "C major",
+ "bars": 3,
+ "sections": [],
+ "chords": [],
+ "tracks": [
+  {
+   "name": "Golden Steps",
+   "kind": "pitched",
+   "program": 11,
+   "tuning": null,
+   "notes": [
+    {
+     "start": 0,
+     "dur": 240,
+     "pitch": 60,
+     "vel": 90
+    },
+    {
+     "start": 240,
+     "dur": 240,
+     "pitch": 62,
+     "vel": 90
+    },
+    {
+     "start": 480,
+     "dur": 240,
+     "pitch": 60,
+     "vel": 90
+    },
+    {
+     "start": 720,
+     "dur": 240,
+     "pitch": 64,
+     "vel": 90
+    },
+    {
+     "start": 960,
+     "dur": 1200,
+     "pitch": 65,
+     "vel": 90
+    },
+    {
+     "start": 2160,
+     "dur": 240,
+     "pitch": 64,
+     "vel": 90
+    },
+    {
+     "start": 2400,
+     "dur": 480,
+     "pitch": 62,
+     "vel": 90
+    },
+    {
+     "start": 2880,
+     "dur": 480,
+     "pitch": 60,
+     "vel": 90
+    },
+    {
+     "start": 3360,
+     "dur": 240,
+     "pitch": 59,
+     "vel": 90
+    },
+    {
+     "start": 3600,
+     "dur": 1200,
+     "pitch": 57,
+     "vel": 90
+    },
+    {
+     "start": 4800,
+     "dur": 240,
+     "pitch": 55,
+     "vel": 90
+    },
+    {
+     "start": 5040,
+     "dur": 240,
+     "pitch": 57,
+     "vel": 90
+    },
+    {
+     "start": 5280,
+     "dur": 480,
+     "pitch": 55,
+     "vel": 90
+    },
+    {
+     "start": 5760,
+     "dur": 480,
+     "pitch": 59,
+     "vel": 90
+    },
+    {
+     "start": 6240,
+     "dur": 240,
+     "pitch": 60,
+     "vel": 90
+    },
+    {
+     "start": 6480,
+     "dur": 240,
+     "pitch": 64,
+     "vel": 90
+    },
+    {
+     "start": 6720,
+     "dur": 480,
+     "pitch": 65,
+     "vel": 90
+    },
+    {
+     "start": 7200,
+     "dur": 240,
+     "pitch": 67,
+     "vel": 90
+    },
+    {
+     "start": 7440,
+     "dur": 480,
+     "pitch": 69,
+     "vel": 90
+    },
+    {
+     "start": 7920,
+     "dur": 720,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 8640,
+     "dur": 240,
+     "pitch": 69,
+     "vel": 90
+    },
+    {
+     "start": 8880,
+     "dur": 480,
+     "pitch": 67,
+     "vel": 90
+    },
+    {
+     "start": 9360,
+     "dur": 480,
+     "pitch": 65,
+     "vel": 90
+    },
+    {
+     "start": 9840,
+     "dur": 480,
+     "pitch": 60,
+     "vel": 90
+    }
+   ]
+  }
+ ]
+}

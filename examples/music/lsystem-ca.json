@@ -1,0 +1,1160 @@
+{
+ "title": "L-system",
+ "artist": "VeePedalDude",
+ "tempo": 104,
+ "ppq": 960,
+ "grid": 120,
+ "meter": {
+  "num": 4,
+  "den": 4
+ },
+ "meterChanges": [],
+ "tempoChanges": [],
+ "key": "A minor",
+ "bars": 8,
+ "sections": [],
+ "chords": [],
+ "tracks": [
+  {
+   "name": "Marimba",
+   "kind": "pitched",
+   "program": 12,
+   "tuning": null,
+   "maxFret": 22,
+   "notes": [
+    {
+     "start": 0,
+     "dur": 480,
+     "pitch": 69,
+     "vel": 90
+    },
+    {
+     "start": 480,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 960,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 1440,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 1920,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 2400,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 2880,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 3360,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 3840,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 4320,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 4800,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 5280,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 5760,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 6240,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 6720,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 7200,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 7680,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 8160,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 8640,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 9120,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 9600,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 10080,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 10560,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 11040,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 11520,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 12000,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 12480,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 12960,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 13440,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 13920,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 14400,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 14880,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 15360,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 15840,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 16320,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 16800,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 17280,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 17760,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 18240,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 18720,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 19200,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 19680,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 20160,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 20640,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 21120,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 21600,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 22080,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 22560,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 23040,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 90
+    },
+    {
+     "start": 23520,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 24000,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 24480,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 90
+    },
+    {
+     "start": 24960,
+     "dur": 480,
+     "pitch": 76,
+     "vel": 90
+    },
+    {
+     "start": 25440,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 25920,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 26400,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 26880,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 27360,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 27840,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 28320,
+     "dur": 480,
+     "pitch": 77,
+     "vel": 90
+    },
+    {
+     "start": 28800,
+     "dur": 480,
+     "pitch": 79,
+     "vel": 90
+    },
+    {
+     "start": 29280,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    },
+    {
+     "start": 29760,
+     "dur": 480,
+     "pitch": 71,
+     "vel": 90
+    },
+    {
+     "start": 30240,
+     "dur": 480,
+     "pitch": 81,
+     "vel": 90
+    }
+   ]
+  },
+  {
+   "name": "Drums",
+   "kind": "drums",
+   "program": 0,
+   "tuning": null,
+   "maxFret": 22,
+   "clef": "neutral",
+   "notes": [
+    {
+     "start": 1920,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 5520,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 5760,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 6000,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 9120,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 9360,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 10080,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 12720,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 12960,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 13440,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 13680,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 13920,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 14160,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 16320,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 16560,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 17280,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 18240,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 19920,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 20160,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 20640,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 20880,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 21120,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 21360,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 21840,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 22080,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 22320,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 23520,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 23760,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 24480,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 25680,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 26400,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 27120,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 27360,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 27840,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 28080,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 28320,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 28560,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 29280,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 29520,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 29760,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 30000,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 30240,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 30480,
+     "dur": 240,
+     "pitch": 37,
+     "vel": 96
+    },
+    {
+     "start": 0,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 480,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 720,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 1200,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 1680,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 1920,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 2400,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 2640,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 3120,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 3600,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 3840,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 4320,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 4560,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 5040,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 5520,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 5760,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 6240,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 6480,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 6960,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 7440,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 7680,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 8160,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 8400,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 8880,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 9360,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 9600,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 10080,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 10320,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 10800,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 11280,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 11520,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 12000,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 12240,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 12720,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 13200,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 13440,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 13920,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 14160,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 14640,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 15120,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 15360,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 15840,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 16080,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 16560,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 17040,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 17280,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 17760,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 18000,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 18480,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 18960,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 19200,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 19680,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 19920,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 20400,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 20880,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 21120,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 21600,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 21840,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 22320,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 22800,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 23040,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 23520,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 23760,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 24240,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 24720,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 24960,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 25440,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 25680,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 26160,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 26640,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 26880,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 27360,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 27600,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 28080,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 28560,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 28800,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 29280,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 29520,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 30000,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    },
+    {
+     "start": 30480,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 96
+    }
+   ]
+  }
+ ]
+}

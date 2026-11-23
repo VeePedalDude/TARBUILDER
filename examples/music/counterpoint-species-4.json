@@ -1,0 +1,167 @@
+{
+ "title": "Fux species 4",
+ "artist": "VeePedalDude",
+ "tempo": 80,
+ "ppq": 960,
+ "grid": 120,
+ "meter": {
+  "num": 4,
+  "den": 4
+ },
+ "meterChanges": [],
+ "tempoChanges": [],
+ "key": "D dorian",
+ "bars": 11,
+ "sections": [],
+ "chords": [],
+ "tracks": [
+  {
+   "name": "Counterpoint",
+   "kind": "pitched",
+   "program": 52,
+   "tuning": null,
+   "notes": [
+    {
+     "start": 1920,
+     "dur": 3840,
+     "pitch": 74,
+     "vel": 80
+    },
+    {
+     "start": 5760,
+     "dur": 3840,
+     "pitch": 72,
+     "vel": 80
+    },
+    {
+     "start": 9600,
+     "dur": 3840,
+     "pitch": 71,
+     "vel": 80
+    },
+    {
+     "start": 13440,
+     "dur": 3840,
+     "pitch": 74,
+     "vel": 80
+    },
+    {
+     "start": 17280,
+     "dur": 3840,
+     "pitch": 79,
+     "vel": 80
+    },
+    {
+     "start": 21120,
+     "dur": 3840,
+     "pitch": 77,
+     "vel": 80
+    },
+    {
+     "start": 24960,
+     "dur": 3840,
+     "pitch": 76,
+     "vel": 80
+    },
+    {
+     "start": 28800,
+     "dur": 3840,
+     "pitch": 74,
+     "vel": 80
+    },
+    {
+     "start": 32640,
+     "dur": 3840,
+     "pitch": 72,
+     "vel": 80
+    },
+    {
+     "start": 36480,
+     "dur": 1920,
+     "pitch": 73,
+     "vel": 80
+    },
+    {
+     "start": 38400,
+     "dur": 3840,
+     "pitch": 74,
+     "vel": 80
+    }
+   ]
+  },
+  {
+   "name": "Cantus firmus",
+   "kind": "pitched",
+   "program": 52,
+   "tuning": null,
+   "notes": [
+    {
+     "start": 0,
+     "dur": 3840,
+     "pitch": 62,
+     "vel": 80
+    },
+    {
+     "start": 3840,
+     "dur": 3840,
+     "pitch": 65,
+     "vel": 80
+    },
+    {
+     "start": 7680,
+     "dur": 3840,
+     "pitch": 64,
+     "vel": 80
+    },
+    {
+     "start": 11520,
+     "dur": 3840,
+     "pitch": 62,
+     "vel": 80
+    },
+    {
+     "start": 15360,
+     "dur": 3840,
+     "pitch": 67,
+     "vel": 80
+    },
+    {
+     "start": 19200,
+     "dur": 3840,
+     "pitch": 65,
+     "vel": 80
+    },
+    {
+     "start": 23040,
+     "dur": 3840,
+     "pitch": 69,
+     "vel": 80
+    },
+    {
+     "start": 26880,
+     "dur": 3840,
+     "pitch": 67,
+     "vel": 80
+    },
+    {
+     "start": 30720,
+     "dur": 3840,
+     "pitch": 65,
+     "vel": 80
+    },
+    {
+     "start": 34560,
+     "dur": 3840,
+     "pitch": 64,
+     "vel": 80
+    },
+    {
+     "start": 38400,
+     "dur": 3840,
+     "pitch": 62,
+     "vel": 80
+    }
+   ]
+  }
+ ]
+}

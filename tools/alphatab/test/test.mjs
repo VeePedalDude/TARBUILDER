@@ -3,6 +3,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseTex, loadFile, check, toGp7, toMidi, toAlphaTex, roundTrip, gpHeader } from '../lib/tab.mjs';
+import * as at from '@coderline/alphatab';
+const loadFileFromBytes = (bytes) => at.importer.ScoreLoader.loadScoreFromBytes(bytes, new at.Settings());
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const examples = path.join(here, '../../../examples');
@@ -48,6 +50,14 @@ for (const f of fs.readdirSync(examples).filter((f) => f.endsWith('.atex'))) {
   const items = check(score);
   t('8-fret chord stretch warned', items.some((d) => d.level === 'warning' && /spans 8 frets/.test(d.message)));
   t('two notes on one string is an error', items.some((d) => d.level === 'error' && /same string/.test(d.message)));
+}
+
+// 5. Piano/vocal staves (no tuning) aren't checked as fretted, before or after a GP round trip.
+{
+  const { score } = parseTex('\\track ("Piano") { instrument 0 }\n\\staff {score}\n\\tuning (piano)\n:4 C2 (C4 E4 G4) A7 r');
+  t('piano staff: no fret/string checks', check(score).length === 0, check(score).map((d) => d.message).join(' | '));
+  const back = loadFileFromBytes(toGp7(score));
+  t('piano staff after GP export: still clean', check(back).length === 0, check(back).map((d) => d.message).join(' | '));
 }
 
 console.log(`\n${pass} passed, ${fail} failed`);

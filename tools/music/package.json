@@ -1,0 +1,13 @@
+{
+  "name": "tarbuilder-music",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TARBUILDER music toolkit: theory, generators, rule checkers and exporters (MIDI, alphaTex/GP7, MusicXML, LilyPond). No dependencies.",
+  "type": "module",
+  "bin": { "tb": "bin/tb.mjs" },
+  "exports": { ".": "./src/index.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

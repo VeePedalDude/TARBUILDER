@@ -1,0 +1,244 @@
+{
+ "title": "All-interval row",
+ "artist": "VeePedalDude",
+ "tempo": 90,
+ "ppq": 960,
+ "grid": 120,
+ "meter": {
+  "num": 4,
+  "den": 4
+ },
+ "meterChanges": [],
+ "tempoChanges": [],
+ "key": "C major",
+ "bars": 8,
+ "sections": [],
+ "chords": [],
+ "tracks": [
+  {
+   "name": "Piano",
+   "kind": "pitched",
+   "program": 0,
+   "tuning": null,
+   "maxFret": 22,
+   "notes": [
+    {
+     "start": 0,
+     "dur": 480,
+     "pitch": 72,
+     "vel": 85
+    },
+    {
+     "start": 480,
+     "dur": 480,
+     "pitch": 74,
+     "vel": 85
+    },
+    {
+     "start": 960,
+     "dur": 960,
+     "pitch": 71,
+     "vel": 85
+    },
+    {
+     "start": 1920,
+     "dur": 240,
+     "pitch": 75,
+     "vel": 85
+    },
+    {
+     "start": 2160,
+     "dur": 240,
+     "pitch": 76,
+     "vel": 85
+    },
+    {
+     "start": 2400,
+     "dur": 480,
+     "pitch": 70,
+     "vel": 85
+    },
+    {
+     "start": 2880,
+     "dur": 960,
+     "pitch": 65,
+     "vel": 85
+    },
+    {
+     "start": 3840,
+     "dur": 480,
+     "pitch": 68,
+     "vel": 85
+    },
+    {
+     "start": 4320,
+     "dur": 480,
+     "pitch": 73,
+     "vel": 85
+    },
+    {
+     "start": 4800,
+     "dur": 480,
+     "pitch": 69,
+     "vel": 85
+    },
+    {
+     "start": 5280,
+     "dur": 960,
+     "pitch": 67,
+     "vel": 85
+    },
+    {
+     "start": 6240,
+     "dur": 2880,
+     "pitch": 66,
+     "vel": 85
+    },
+    {
+     "start": 9120,
+     "dur": 480,
+     "pitch": 65,
+     "vel": 85
+    },
+    {
+     "start": 9600,
+     "dur": 480,
+     "pitch": 63,
+     "vel": 85
+    },
+    {
+     "start": 10080,
+     "dur": 960,
+     "pitch": 66,
+     "vel": 85
+    },
+    {
+     "start": 11040,
+     "dur": 240,
+     "pitch": 62,
+     "vel": 85
+    },
+    {
+     "start": 11280,
+     "dur": 240,
+     "pitch": 61,
+     "vel": 85
+    },
+    {
+     "start": 11520,
+     "dur": 480,
+     "pitch": 55,
+     "vel": 85
+    },
+    {
+     "start": 12000,
+     "dur": 960,
+     "pitch": 60,
+     "vel": 85
+    },
+    {
+     "start": 12960,
+     "dur": 480,
+     "pitch": 57,
+     "vel": 85
+    },
+    {
+     "start": 13440,
+     "dur": 480,
+     "pitch": 64,
+     "vel": 85
+    },
+    {
+     "start": 13920,
+     "dur": 480,
+     "pitch": 68,
+     "vel": 85
+    },
+    {
+     "start": 14400,
+     "dur": 960,
+     "pitch": 70,
+     "vel": 85
+    },
+    {
+     "start": 15360,
+     "dur": 2880,
+     "pitch": 71,
+     "vel": 85
+    },
+    {
+     "start": 18240,
+     "dur": 480,
+     "pitch": 66,
+     "vel": 85
+    },
+    {
+     "start": 18720,
+     "dur": 480,
+     "pitch": 67,
+     "vel": 85
+    },
+    {
+     "start": 19200,
+     "dur": 960,
+     "pitch": 69,
+     "vel": 85
+    },
+    {
+     "start": 20160,
+     "dur": 240,
+     "pitch": 73,
+     "vel": 85
+    },
+    {
+     "start": 20400,
+     "dur": 240,
+     "pitch": 68,
+     "vel": 85
+    },
+    {
+     "start": 20640,
+     "dur": 480,
+     "pitch": 65,
+     "vel": 85
+    },
+    {
+     "start": 21120,
+     "dur": 960,
+     "pitch": 70,
+     "vel": 85
+    },
+    {
+     "start": 22080,
+     "dur": 480,
+     "pitch": 64,
+     "vel": 85
+    },
+    {
+     "start": 22560,
+     "dur": 480,
+     "pitch": 63,
+     "vel": 85
+    },
+    {
+     "start": 23040,
+     "dur": 480,
+     "pitch": 59,
+     "vel": 85
+    },
+    {
+     "start": 23520,
+     "dur": 960,
+     "pitch": 62,
+     "vel": 85
+    },
+    {
+     "start": 24480,
+     "dur": 2880,
+     "pitch": 60,
+     "vel": 85
+    }
+   ]
+  }
+ ]
+}

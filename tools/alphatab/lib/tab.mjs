@@ -76,6 +76,11 @@ export function check(score) {
   for (const track of score.tracks) {
     track.staves.forEach((staff, si) => {
       const strings = staff.tuning.length;
+      // Fret/string checks only make sense for fretted parts. Piano/vocal staves have no tuning in
+      // alphaTex, but alphaTab's GP export gives them a dummy guitar tuning, so also require a
+      // tab staff or a guitar/bass GM program (24-39).
+      const program = track.playbackInfo.program;
+      const stringed = !staff.isPercussion && strings > 0 && (staff.showTablature || (program >= 24 && program <= 39));
       const label = (bi) => `track "${track.name}"${track.staves.length > 1 ? ` staff ${si + 1}` : ''} bar ${bi + 1}`;
 
       if (staff.bars.length !== masterBars.length) {
@@ -107,7 +112,7 @@ export function check(score) {
             add(isPickup || isLast ? 'warning' : 'error', label(bi), msg + (isPickup ? ' If this is a pickup bar, mark it with \\anacrusis.' : ''));
           }
           for (const beat of voice.beats) {
-            if (!staff.isPercussion && beat.notes.length > 1) {
+            if (stringed && beat.notes.length > 1) {
               const fretted = beat.notes.filter((n) => n.fret > 0 && !n.isDead).map((n) => n.fret);
               const span = fretted.length ? Math.max(...fretted) - Math.min(...fretted) : 0;
               if (span > LIMITS.maxChordSpan) add('warning', label(bi), `Chord spans ${span + 1} frets (${fretted.join(',')}) - likely unplayable.`);
@@ -115,10 +120,10 @@ export function check(score) {
               if (new Set(strs).size !== strs.length) add('error', label(bi), 'Two notes on the same string in one chord.');
             }
             for (const note of beat.notes) {
-              if (!staff.isPercussion && strings && (note.string < 1 || note.string > strings)) {
+              if (stringed && (note.string < 1 || note.string > strings)) {
                 add('error', label(bi), `Note on string ${note.string} but the tuning has ${strings} strings.`);
               }
-              if (!staff.isPercussion && note.fret > LIMITS.maxFret) {
+              if (stringed && note.fret > LIMITS.maxFret) {
                 add('warning', label(bi), `Fret ${note.fret} is above ${LIMITS.maxFret}.`);
               }
             }
