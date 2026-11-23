@@ -34,6 +34,8 @@ CLASSICAL
 LAB
   tb euclid 5 8 [--rotate 1]             Euclidean rhythm
   tb polymeter "x.." "x..." "x...."      layers realign after the LCM
+  tb tree "[[1,[1,1,1,1,1]],1,1]" [--beats 1]   nested rhythm tree -> exact leaves + tuplet notation
+  tb tree --random [--splits 3,5] [--depth 2] [--beats 1] [--seed 4]   grow a branching tree
   tb nr C PLR | tb nr C Ebm              neo-Riemannian ops / shortest path
   tb pcset 0 4 7 | tb pcset C E G        normal form, prime form, interval vector
   tb row 0 11 7 8 3 1 2 10 6 5 4 9       twelve-tone matrix
@@ -212,6 +214,20 @@ const commands = {
     const { events, steps } = tb.rhythm.polymeter(layers);
     const grid = pos.map((_, li) => Array.from({ length: steps }, (_, s) => (events.some((e) => e.step === s && e.layer === li) ? 'x' : '.')).join(''));
     print(`realigns after ${steps} steps\n` + grid.join('\n'));
+  },
+
+  tree() {
+    const beats = num(flags.beats, 1);
+    const tree = flags.random
+      ? tb.branching.branchingTree({ splits: String(flags.splits ?? '2,3,4,5').split(',').map(Number), depth: num(flags.depth, 2), span: [beats, 1], seed: flags.seed ?? 1 })
+      : JSON.parse(pos[0]);
+    const leaves = tb.branching.nestedRhythm(tree, [beats, 1]);
+    const rows = leaves.map((l) => {
+      const nt = tb.tuplets.notate(l.dur);
+      const tu = nt.n !== nt.m ? ` in ${nt.n}:${nt.m}` : '';
+      return `${l.rest ? 'rest' : 'note'}  ${l.dur[0]}/${l.dur[1]} q  = 1/${nt.den}${nt.dots ? '.' : ''}${tu}   (depth ${l.depth})`;
+    });
+    print(`tree ${JSON.stringify(tree)} over ${beats} beat(s)\n` + rows.join('\n'));
   },
 
   nr() {

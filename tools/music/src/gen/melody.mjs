@@ -77,7 +77,8 @@ export function barRhythm(song, bar, { density = 0.5, rng, grid = 240 } = {}) {
     }
     b += Math.max(1, Math.round(used));
   }
-  const kept = out.filter((n) => n.start < bl);
+  // in order, one note per start (short beats like x/16 can make cells collide), inside the bar
+  const kept = out.filter((n) => n.start < bl).sort((x, y) => x.start - y.start).filter((n, i, arr) => i === 0 || n.start > arr[i - 1].start);
   // never overlap the next note or the barline
   return kept.map((n, i) => ({ ...n, dur: Math.min(n.dur, (kept[i + 1]?.start ?? bl) - n.start) })).filter((n) => n.dur > 0);
 }
@@ -139,6 +140,11 @@ function generateOnce(song, opts) {
         if (bl / beat >= 4 && rng.chance(0.5)) rhythm = [{ start: 0, dur: beat / 2 }, { start: beat / 2, dur: beat / 2 }, { start: beat, dur: beat }, { start: 2 * beat, dur: bl - 2 * beat }];
       } else if (form === 'sentence') rhythm = k === 0 || k === 1 ? motifRhythm : contrast;
       else rhythm = k % 2 === 0 ? motifRhythm : contrast;
+      // meter changes: a motif from a longer bar is clipped to this bar; one from a shorter bar is fine
+      if (!last && bl !== barLength(song, p)) {
+        rhythm = rhythm.filter((r) => r.start < bl).map((r) => ({ ...r, dur: Math.min(r.dur, bl - r.start) }));
+        if (!rhythm.length) rhythm = barRhythm(song, bar, { density, rng });
+      }
       const reuseMotif = form === 'sentence' ? k === 1 : k === 2 && bars >= 4;
       rhythm.forEach((r, ri) => {
         const t = bs + r.start;

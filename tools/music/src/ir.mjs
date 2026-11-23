@@ -14,6 +14,7 @@
 //           fx?: { pm, h, sl, b:[from,to] quarter-tones, v, lr, x (dead), nh, g, ac, st },
 //           string?, fret?  (optional fixed fingering; string 1 = highest),
 //           lyric? }
+//         tuplets?: [{ start, dur, leaves: [{ start, ticks, den, dots, n, m }] }]   (see tuplets.mjs)
 // Times are in ticks from the start of bar 1. Grid: everything must land on 1/32 notes (120 ticks)
 // unless song.grid is changed.
 
@@ -235,11 +236,35 @@ export function validateSong(song) {
         err(`track "${t.name}"`, `Bad tuning: ${e.message}`);
       }
     }
+    // tuplet regions: inside one bar, on the grid, leaves contiguous, no overlaps
+    const regions = (t.tuplets ?? []).slice().sort((a, b) => a.start - b.start);
+    regions.forEach((r, i) => {
+      const where = `track "${t.name}" bar ${barAt(song, r.start) + 1}`;
+      if (r.start % grid || r.dur % grid) err(where, `Tuplet region ${r.start}+${r.dur} is off the ${grid}-tick grid`);
+      const b = barAt(song, r.start);
+      if (r.start + r.dur > barStart(song, b) + barLength(song, b)) err(where, `Tuplet region crosses the barline`);
+      if (i && r.start < regions[i - 1].start + regions[i - 1].dur) err(where, `Tuplet regions overlap`);
+      let p = r.start;
+      for (const lf of r.leaves ?? []) {
+        if (lf.start !== p || !(lf.ticks > 0)) { err(where, `Tuplet leaves must be contiguous (gap or overlap at ${lf.start})`); break; }
+        p += lf.ticks;
+      }
+      if (p !== r.start + r.dur) err(where, `Tuplet leaves add up to ${p - r.start} ticks, region is ${r.dur}`);
+    });
+    const regionAt = (tick) => regions.find((r) => tick > r.start && tick < r.start + r.dur);
+    const okPoint = (tick) => {
+      const r = regionAt(tick);
+      return r ? r.leaves.some((lf) => lf.start === tick) : tick % grid === 0;
+    };
     const byStart = new Map();
     for (const n of t.notes) {
       if (!Number.isInteger(n.start) || n.start < 0) err(w(n), `Bad start ${n.start}`);
       if (!Number.isInteger(n.dur) || n.dur <= 0) err(w(n), `Bad duration ${n.dur}`);
-      if (n.start % grid || n.dur % grid) err(w(n), `Note at ${n.start} (dur ${n.dur}) is off the ${grid}-tick grid`);
+      if (!okPoint(n.start) || !okPoint(n.start + n.dur)) {
+        err(w(n), regionAt(n.start) || regionAt(n.start + n.dur)
+          ? `Note at ${n.start} (dur ${n.dur}) doesn't start and end on tuplet leaf boundaries`
+          : `Note at ${n.start} (dur ${n.dur}) is off the ${grid}-tick grid`);
+      }
       if (n.start + n.dur > end) err(w(n), `Note runs past the end of the song (bar ${song.bars})`);
       if (!Number.isInteger(n.pitch) || n.pitch < 0 || n.pitch > 127) err(w(n), `Bad pitch ${n.pitch}`);
       if (t.kind === 'drums' && !GM_DRUMS[n.pitch]) warn(w(n), `Drum note ${n.pitch} is not in the GM drum map (35-81)`);
@@ -314,10 +339,15 @@ export function drumBeats(track, song) {
   const starts = [...at.keys()].sort((a, b) => a - b);
   const end = totalTicks(song);
   const grid = song.grid ?? DEFAULT_GRID;
+  const regions = track.tuplets ?? [];
   return starts.map((s, i) => {
+    // inside a tuplet region a drum hit lasts exactly one leaf
+    const leaf = regions.find((r) => s >= r.start && s < r.start + r.dur)?.leaves.find((lf) => lf.start === s);
+    if (leaf) return { start: s, dur: leaf.ticks, notes: at.get(s) };
     const next = i + 1 < starts.length ? starts[i + 1] : end;
     const barEnd = barStart(song, barAt(song, s) + 1);
-    let dur = Math.min(next, barEnd) - s;
+    const regionStart = regions.find((r) => r.start > s)?.start ?? Infinity;
+    let dur = Math.min(next, barEnd, regionStart) - s;
     dur = Math.min(dur, song.ppq);
     dur = Math.max(grid, Math.floor(dur / grid) * grid);
     return { start: s, dur, notes: at.get(s) };
@@ -336,11 +366,14 @@ export function noteFromName(name) {
  * Snap every note to a grid (default 1/16 = 240 ticks), keep at least one grid step of length,
  * trim notes so the same pitch never overlaps itself, and drop exact duplicates.
  * Use after importing GP/MIDI with tuplets or human timing before exporting.
+ * Notes inside written tuplet regions (track.tuplets) are left exactly as they are.
  */
 export function quantize(song, grid = 240) {
   const end = totalTicks(song);
   for (const t of song.tracks) {
+    const inRegion = (n) => (t.tuplets ?? []).some((r) => n.start >= r.start && n.start < r.start + r.dur);
     for (const n of t.notes) {
+      if (inRegion(n)) continue; // written tuplets stay exact
       const s = Math.round(n.start / grid) * grid;
       let e = Math.round((n.start + n.dur) / grid) * grid;
       if (e <= s) e = s + grid;

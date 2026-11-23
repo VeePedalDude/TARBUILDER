@@ -8,6 +8,7 @@ Built by `node tools/music/examples/build.mjs`. Every .gp passed `tarb` checks; 
 - metalcore-drop-c: 4 tracks, 72 bars, 0 warnings -> metalcore-drop-c.json, metalcore-drop-c.atex, metalcore-drop-c.gp, metalcore-drop-c.mid, metalcore-drop-c.musicxml, metalcore-drop-c.ly
 - deathcore-drop-a: 3 tracks, 60 bars, 0 warnings -> deathcore-drop-a.json, deathcore-drop-a.atex, deathcore-drop-a.gp, deathcore-drop-a.mid, deathcore-drop-a.musicxml, deathcore-drop-a.ly
 - tech-death-b: 3 tracks, 64 bars, 0 warnings -> tech-death-b.json, tech-death-b.atex, tech-death-b.gp, tech-death-b.mid, tech-death-b.musicxml, tech-death-b.ly
+- mathcore-cells: 3 tracks, 26 bars, 0 warnings -> mathcore-cells.json, mathcore-cells.atex, mathcore-cells.gp, mathcore-cells.mid, mathcore-cells.musicxml, mathcore-cells.ly
 - folk-ballad-68: 4 tracks, 56 bars, 0 warnings -> folk-ballad-68.json, folk-ballad-68.atex, folk-ballad-68.gp, folk-ballad-68.mid, folk-ballad-68.musicxml, folk-ballad-68.ly
 - jazz-coltrane-bebop: 4 tracks, 8 bars, 0 warnings -> jazz-coltrane-bebop.json, jazz-coltrane-bebop.atex, jazz-coltrane-bebop.gp, jazz-coltrane-bebop.mid, jazz-coltrane-bebop.musicxml, jazz-coltrane-bebop.ly
 - chorale-satb: 4 tracks, 9 bars, 0 warnings -> chorale-satb.json, chorale-satb.atex, chorale-satb.gp, chorale-satb.mid, chorale-satb.musicxml, chorale-satb.ly
@@ -16,6 +17,7 @@ Built by `node tools/music/examples/build.mjs`. Every .gp passed `tarb` checks; 
 - counterpoint-species-5: 2 tracks, 11 bars, 0 warnings -> counterpoint-species-5.json, counterpoint-species-5.atex, counterpoint-species-5.gp, counterpoint-species-5.mid, counterpoint-species-5.musicxml, counterpoint-species-5.ly
 - string-quartet: 4 tracks, 8 bars, 0 warnings -> string-quartet.json, string-quartet.atex, string-quartet.gp, string-quartet.mid, string-quartet.musicxml, string-quartet.ly
 - euclidean-polymeter: 1 tracks, 8 bars, 0 warnings -> euclidean-polymeter.json, euclidean-polymeter.atex, euclidean-polymeter.gp, euclidean-polymeter.mid, euclidean-polymeter.musicxml, euclidean-polymeter.ly
+- branching-polyrhythm: 3 tracks, 4 bars, 0 warnings -> branching-polyrhythm.json, branching-polyrhythm.atex, branching-polyrhythm.gp, branching-polyrhythm.mid, branching-polyrhythm.musicxml, branching-polyrhythm.ly
 - tonnetz-walk: 2 tracks, 8 bars, 0 warnings -> tonnetz-walk.json, tonnetz-walk.atex, tonnetz-walk.gp, tonnetz-walk.mid, tonnetz-walk.musicxml, tonnetz-walk.ly
 - twelve-tone-row: 1 tracks, 8 bars, 0 warnings -> twelve-tone-row.json, twelve-tone-row.atex, twelve-tone-row.gp, twelve-tone-row.mid, twelve-tone-row.musicxml, twelve-tone-row.ly
 - madeup-golden-steps: 1 tracks, 3 bars, 0 warnings -> madeup-golden-steps.json, madeup-golden-steps.atex, madeup-golden-steps.gp, madeup-golden-steps.mid, madeup-golden-steps.musicxml, madeup-golden-steps.ly

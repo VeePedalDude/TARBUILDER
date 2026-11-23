@@ -14,6 +14,16 @@ export const FORMS = {
   deathcore: [['Intro', 4, 0.8], ['Riff', 8, 0.9], ['Verse', 8, 0.9], ['Breakdown', 8, 0.95], ['Riff', 8, 0.9], ['Verse', 8, 0.9], ['Bridge', 8, 0.7], ['Breakdown', 8, 1]],
   // death metal: compound AABA (Hudson 2021) with a buildup intro; riffs repeat in 2s and 4s
   'death metal': [['Intro', 4, 0.6], ['Verse', 8, 0.9], ['Chorus', 8, 0.95], ['Verse', 8, 0.9], ['Chorus', 8, 0.95], ['Bridge', 8, 0.8], ['Verse', 8, 0.9], ['Chorus', 8, 1], ['Outro', 4, 0.7]],
+  // mathcore: short contrasting cells, meters changing every bar or two, a 7-against-4 polymeter
+  // cell, a branching-tuplet cell (nested polyrhythm, phrased a a' b a) and a closing breakdown
+  mathcore: [
+    ['Intro', 2, 0.9, { meters: [[7, 8]] }],
+    ['Cell A', 4, 0.95, { meters: [[7, 8], [7, 8], [5, 8], [13, 16]] }],
+    ['Cell B', 4, 0.9, { meters: [[4, 4]], poly: 7 }],
+    ['Cell A', 4, 0.95, { meters: [[7, 8], [7, 8], [5, 8], [13, 16]] }],
+    ['Spiral', 4, 0.85, { meters: [[4, 4], [4, 4], [3, 4], [5, 4]], branching: true, form: "a a' b a" }],
+    ['Breakdown', 8, 1, { meters: [[4, 4]] }],
+  ],
   edm: [['Intro', 8, 0.3], ['Build', 8, 0.6], ['Drop', 16, 1], ['Break', 8, 0.35], ['Build', 8, 0.65], ['Drop', 16, 1], ['Outro', 8, 0.3]],
   ballad: [['Intro', 4, 0.25], ['Verse', 8, 0.35], ['Chorus', 8, 0.6], ['Verse', 8, 0.4], ['Chorus', 8, 0.7], ['Bridge', 8, 0.55], ['Chorus', 8, 0.8], ['Outro', 4, 0.25]],
   short: [['A', 4, 0.6], ['B', 4, 0.8], ['A', 4, 0.7]],
@@ -29,6 +39,7 @@ export const GENRES = {
   metalcore: { tempo: [140, 180], keys: ['C minor'], groove: 'd-beat', sectionGrooves: { 'pre-chorus': 'double kick', chorus: 'rock 2', bridge: 'halftime', intro: 'double kick' }, form: 'metalcore', progression: ['aeolian vamp', 'andalusian'], guitar: 'Distortion Guitar', comp: 'power', sectionComps: { chorus: 'strum' }, bass: 'eighths', tuning: 'drop c', bassTuning: 'bass drop c', breakdown: { feels: ['half'] } },
   deathcore: { tempo: [140, 190], keys: ['A minor'], groove: 'blast', sectionGrooves: { riff: 'double kick', bridge: 'gravity blast', intro: 'double kick' }, form: 'deathcore', progression: ['phrygian', 'aeolian vamp'], guitar: 'Distortion Guitar', comp: 'power', bass: 'eighths', tuning: 'drop a', bassTuning: 'bass 5 drop a', lead: false, breakdown: { feels: ['half', 'quarter'] } },
   'tech-death': { tempo: [180, 230], keys: ['B minor'], groove: 'blast', sectionGrooves: { chorus: 'double kick', intro: 'double kick', bridge: 'skank' }, form: 'death metal', progression: ['phrygian', 'andalusian'], guitar: 'Distortion Guitar', comp: 'power', bass: 'eighths', tuning: 'b standard', bassTuning: 'bass 5', lead: false },
+  mathcore: { tempo: [150, 190], keys: ['C minor'], groove: 'skank', sectionGrooves: { intro: 'blast', 'cell b': 'halftime' }, form: 'mathcore', progression: ['phrygian', 'aeolian vamp'], guitar: 'Distortion Guitar', comp: 'power', bass: 'eighths', tuning: 'drop c', bassTuning: 'bass drop c', lead: false, breakdown: { feels: ['half'] } },
   blues: { tempo: [70, 120], keys: ['E major', 'A major', 'G major', 'C major'], groove: 'shuffle', meter: [12, 8], form: 'blues', progression: ['12-bar blues', 'quick-change blues'], guitar: 'Electric Guitar (clean)', comp: 'shuffle', bass: 'walking' },
   jazz: { tempo: [110, 180], keys: ['F major', 'Bb major', 'Eb major', 'C major'], groove: 'jazz swing', meter: [12, 8], form: 'aaba', progression: ['ii-V-I', 'turnaround', 'rhythm changes A'], guitar: 'Electric Guitar (jazz)', comp: 'jazz', bass: 'walking' },
   funk: { tempo: [95, 115], keys: ['E minor', 'A minor', 'D dorian'], groove: 'funk', form: 'loop', progression: ['dorian vamp'], guitar: 'Electric Guitar (clean)', comp: 'funk', bass: 'syncopated' },
@@ -44,9 +55,11 @@ export function planForm(form = 'verse-chorus', { scale = 1 } = {}) {
   if (!list) throw new Error(`Unknown form "${form}". Known: ${Object.keys(FORMS).join(', ')}`);
   let bar = 0;
   return list.map((s) => {
-    const [name, bars, energy] = Array.isArray(s) ? s : [s.name, s.bars, s.energy ?? 0.7];
+    // optional 4th item / object keys: { meters: [[7, 8], [5, 8]] (cycled per bar), meter, poly, branching, form }
+    const [name, bars, energy, extra] = Array.isArray(s) ? s : [s.name, s.bars, s.energy ?? 0.7, s];
     const b = Math.max(1, Math.round(bars * scale));
-    const out = { name, bars: b, energy, bar };
+    const { name: _n, bars: _b, energy: _e, ...opts } = extra ?? {};
+    const out = { ...opts, name, bars: b, energy, bar };
     bar += b;
     return out;
   });

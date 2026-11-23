@@ -5,18 +5,18 @@
   tagline = "TARBUILDER"
 }
 
-trackA = \drummode { \time 6/8 { \mark "Intro" <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <bd tomh>8 tommh8 <bd tomml>8 |
-    \mark "Verse" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <bd tomh>8 tommh8 <bd tomml>8 |
+trackA = \drummode { \time 6/8 { \mark "Intro" <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
+    \mark "Verse" <bd cymc>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
     \mark "Chorus" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
@@ -24,15 +24,15 @@ trackA = \drummode { \time 6/8 { \mark "Intro" <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <bd tomh>8 tommh8 <bd tomml>8 |
-    \mark "Verse" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <bd sn>8 tommh8 <bd sn>8 |
+    \mark "Verse" <bd cymc>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <bd tomh>16 tomh16 <bd tommh>16 tomml16 <bd tomml>16 tomfh16 |
     \mark "Chorus" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
@@ -48,7 +48,7 @@ trackA = \drummode { \time 6/8 { \mark "Intro" <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <bd sn>8 tommh8 <bd sn>8 |
+    <bd hh>8 hh8 hh8 <bd sn>8 sn8 <bd sn>8 |
     \mark "Chorus" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
@@ -57,10 +57,10 @@ trackA = \drummode { \time 6/8 { \mark "Intro" <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 <bd sn>8 tommh8 <bd sn>8 |
-    \mark "Outro" <bd cymc>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <sn hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 <bd tomh>8 tommh8 <bd tomml>8 | } }
+    \mark "Outro" <bd cymc>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <sn cymr>8 r8 r8 |
+    <bd cymr>4 r8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 | } }
 
 trackB = { \clef "bass_8" \key d \major \time 6/8 { d,4.\2^"D" a,,8\3~^"A" a,,4\3 |
     b,,4.\3^"Bm" fis,,8\4~^"F#m" fis,,4\4 |

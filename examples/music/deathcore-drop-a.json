@@ -421,7 +421,7 @@
      "start": 0,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 114
     },
     {
      "start": 0,
@@ -439,46 +439,52 @@
      "start": 240,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 480,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 113
     },
     {
      "start": 720,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 108
     },
     {
      "start": 960,
      "dur": 240,
      "pitch": 36,
-     "vel": 108
+     "vel": 109
     },
     {
      "start": 960,
      "dur": 240,
      "pitch": 52,
-     "vel": 108
+     "vel": 110
     },
     {
      "start": 1200,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 111
     },
     {
      "start": 1440,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 109
     },
     {
      "start": 1680,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 108
+    },
+    {
+     "start": 1920,
      "dur": 240,
      "pitch": 36,
      "vel": 109
@@ -486,20 +492,14 @@
     {
      "start": 1920,
      "dur": 240,
-     "pitch": 36,
-     "vel": 110
-    },
-    {
-     "start": 1920,
-     "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 113
     },
     {
      "start": 1920,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 112
     },
     {
      "start": 2160,
@@ -511,67 +511,67 @@
      "start": 2400,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 2640,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 112
     },
     {
      "start": 2880,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 2880,
      "dur": 240,
      "pitch": 52,
-     "vel": 108
+     "vel": 113
     },
     {
      "start": 3120,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 106
     },
     {
      "start": 3360,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 112
     },
     {
      "start": 3600,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
-    },
-    {
-     "start": 3840,
-     "dur": 240,
-     "pitch": 36,
      "vel": 111
     },
     {
      "start": 3840,
      "dur": 240,
+     "pitch": 36,
+     "vel": 110
+    },
+    {
+     "start": 3840,
+     "dur": 240,
      "pitch": 52,
-     "vel": 109
+     "vel": 112
     },
     {
      "start": 4080,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 109
     },
     {
      "start": 4320,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 4560,
@@ -583,43 +583,43 @@
      "start": 4800,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 111
     },
     {
      "start": 4800,
      "dur": 240,
      "pitch": 52,
-     "vel": 110
+     "vel": 109
     },
     {
      "start": 5040,
      "dur": 240,
      "pitch": 36,
-     "vel": 107
+     "vel": 112
     },
     {
      "start": 5280,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 110
     },
     {
      "start": 5520,
      "dur": 240,
      "pitch": 36,
-     "vel": 106
+     "vel": 110
     },
     {
      "start": 5760,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 107
     },
     {
      "start": 5760,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 112
     },
     {
      "start": 5760,
@@ -631,13 +631,13 @@
      "start": 6000,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 109
     },
     {
      "start": 6240,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 6480,
@@ -649,7 +649,7 @@
      "start": 6720,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 111
     },
     {
      "start": 6720,
@@ -661,7 +661,7 @@
      "start": 6960,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 113
     },
     {
      "start": 7200,
@@ -673,31 +673,31 @@
      "start": 7440,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 109
     },
     {
      "start": 7680,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 108
     },
     {
      "start": 7680,
      "dur": 240,
      "pitch": 52,
-     "vel": 108
+     "vel": 111
     },
     {
      "start": 7920,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 113
     },
     {
      "start": 8160,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 8400,
@@ -709,121 +709,121 @@
      "start": 8640,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 111
     },
     {
      "start": 8640,
      "dur": 240,
      "pitch": 52,
-     "vel": 109
+     "vel": 111
     },
     {
      "start": 8880,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 110
     },
     {
      "start": 9120,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 108
     },
     {
      "start": 9360,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 113
     },
     {
      "start": 9600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 108
-    },
-    {
-     "start": 9600,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 111
-    },
-    {
-     "start": 9600,
-     "dur": 240,
-     "pitch": 52,
-     "vel": 111
-    },
-    {
-     "start": 9840,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 109
-    },
-    {
-     "start": 10080,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 111
-    },
-    {
-     "start": 10320,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 112
-    },
-    {
-     "start": 10560,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 111
-    },
-    {
-     "start": 10560,
-     "dur": 240,
-     "pitch": 52,
-     "vel": 111
-    },
-    {
-     "start": 10800,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 111
-    },
-    {
-     "start": 11040,
      "dur": 240,
      "pitch": 36,
      "vel": 110
     },
     {
-     "start": 11280,
+     "start": 9600,
      "dur": 240,
-     "pitch": 36,
-     "vel": 113
+     "pitch": 38,
+     "vel": 108
     },
     {
-     "start": 11520,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 111
-    },
-    {
-     "start": 11520,
+     "start": 9600,
      "dur": 240,
      "pitch": 52,
+     "vel": 110
+    },
+    {
+     "start": 9840,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 110
+    },
+    {
+     "start": 10080,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 109
+    },
+    {
+     "start": 10320,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 109
+    },
+    {
+     "start": 10560,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 109
+    },
+    {
+     "start": 10560,
+     "dur": 240,
+     "pitch": 52,
+     "vel": 110
+    },
+    {
+     "start": 10800,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 110
+    },
+    {
+     "start": 11040,
+     "dur": 240,
+     "pitch": 36,
      "vel": 112
     },
     {
-     "start": 11760,
+     "start": 11280,
      "dur": 240,
      "pitch": 36,
      "vel": 108
     },
     {
-     "start": 12000,
+     "start": 11520,
      "dur": 240,
      "pitch": 36,
      "vel": 112
+    },
+    {
+     "start": 11520,
+     "dur": 240,
+     "pitch": 52,
+     "vel": 108
+    },
+    {
+     "start": 11760,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 110
+    },
+    {
+     "start": 12000,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 110
     },
     {
      "start": 12240,
@@ -847,13 +847,13 @@
      "start": 12720,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 110
     },
     {
      "start": 12960,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 13200,
@@ -870,14 +870,14 @@
     {
      "start": 13440,
      "dur": 240,
-     "pitch": 38,
-     "vel": 83
+     "pitch": 50,
+     "vel": 95
     },
     {
      "start": 13680,
      "dur": 240,
      "pitch": 50,
-     "vel": 98
+     "vel": 92
     },
     {
      "start": 13920,
@@ -888,14 +888,14 @@
     {
      "start": 13920,
      "dur": 240,
-     "pitch": 38,
-     "vel": 94
+     "pitch": 48,
+     "vel": 102
     },
     {
      "start": 14160,
      "dur": 240,
      "pitch": 48,
-     "vel": 95
+     "vel": 96
     },
     {
      "start": 14400,
@@ -906,14 +906,14 @@
     {
      "start": 14400,
      "dur": 240,
-     "pitch": 38,
-     "vel": 93
+     "pitch": 47,
+     "vel": 104
     },
     {
      "start": 14640,
      "dur": 240,
      "pitch": 47,
-     "vel": 107
+     "vel": 89
     },
     {
      "start": 14880,
@@ -924,20 +924,20 @@
     {
      "start": 14880,
      "dur": 240,
-     "pitch": 38,
-     "vel": 109
+     "pitch": 43,
+     "vel": 93
     },
     {
      "start": 15120,
      "dur": 240,
      "pitch": 43,
-     "vel": 92
+     "vel": 114
     },
     {
      "start": 15360,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 15360,
@@ -949,223 +949,223 @@
      "start": 15360,
      "dur": 240,
      "pitch": 52,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 15600,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 119
     },
     {
      "start": 15840,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 16080,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 16320,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 16320,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 16560,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 16800,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 17040,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 17280,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 17280,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 17280,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 17520,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 17760,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 18000,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
-    },
-    {
-     "start": 18240,
-     "dur": 240,
-     "pitch": 36,
      "vel": 114
     },
     {
      "start": 18240,
      "dur": 240,
+     "pitch": 36,
+     "vel": 113
+    },
+    {
+     "start": 18240,
+     "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 18480,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 18720,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 18960,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 113
     },
     {
      "start": 19200,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 19200,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 19440,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 19680,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 19920,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 115
     },
     {
      "start": 20160,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 111
     },
     {
      "start": 20160,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 20400,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 20640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 20880,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 21120,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 21120,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 21120,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 21360,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 112
     },
     {
      "start": 21600,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 21840,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 22080,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 22080,
@@ -1177,61 +1177,61 @@
      "start": 22320,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 22560,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 22800,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
-    },
-    {
-     "start": 23040,
-     "dur": 240,
-     "pitch": 36,
      "vel": 115
     },
     {
      "start": 23040,
      "dur": 240,
+     "pitch": 36,
+     "vel": 117
+    },
+    {
+     "start": 23040,
+     "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 23280,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 121
     },
     {
      "start": 23520,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 23760,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 24000,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 24000,
      "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 24240,
@@ -1243,7 +1243,7 @@
      "start": 24480,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 24720,
@@ -1255,49 +1255,49 @@
      "start": 24960,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 24960,
-     "dur": 240,
-     "pitch": 38,
      "vel": 112
     },
     {
      "start": 24960,
      "dur": 240,
+     "pitch": 38,
+     "vel": 116
+    },
+    {
+     "start": 24960,
+     "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 25200,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 25440,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 25680,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 25920,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 25920,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 26160,
@@ -1309,13 +1309,13 @@
      "start": 26400,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 26640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 26880,
@@ -1327,13 +1327,13 @@
      "start": 26880,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 27120,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 27360,
@@ -1345,73 +1345,73 @@
      "start": 27600,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 27840,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 27840,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 28080,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 28320,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 28560,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 28800,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 28800,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 28800,
      "dur": 240,
      "pitch": 52,
-     "vel": 119
+     "vel": 117
     },
     {
      "start": 29040,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 118
     },
     {
      "start": 29280,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 29520,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 29760,
@@ -1429,13 +1429,13 @@
      "start": 30000,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 30240,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 113
     },
     {
      "start": 30480,
@@ -1447,25 +1447,25 @@
      "start": 30720,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 30720,
      "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 30960,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 31200,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 31440,
@@ -1483,19 +1483,19 @@
      "start": 31680,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 31920,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 114
     },
     {
      "start": 32160,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 32400,
@@ -1513,43 +1513,43 @@
      "start": 32640,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 119
     },
     {
      "start": 32640,
      "dur": 240,
      "pitch": 52,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 32880,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 33120,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 33360,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 33600,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 33600,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 33840,
@@ -1561,7 +1561,7 @@
      "start": 34080,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 34320,
@@ -1573,55 +1573,55 @@
      "start": 34560,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 113
     },
     {
      "start": 34560,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 34800,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 35040,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 118
     },
     {
      "start": 35280,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 35520,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 35520,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 111
     },
     {
      "start": 35760,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 36000,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 36240,
@@ -1633,91 +1633,91 @@
      "start": 36480,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 36480,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 36480,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 36720,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 36960,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 115
     },
     {
      "start": 37200,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 112
     },
     {
      "start": 37440,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 37440,
      "dur": 240,
      "pitch": 52,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 37680,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 37920,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 38160,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 38400,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 119
     },
     {
      "start": 38400,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 38640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 38880,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 39120,
@@ -1729,19 +1729,19 @@
      "start": 39360,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 116
     },
     {
      "start": 39360,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 39600,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 39840,
@@ -1753,19 +1753,19 @@
      "start": 40080,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 40320,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 40320,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 40320,
@@ -1777,25 +1777,25 @@
      "start": 40560,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 40800,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 41040,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 41280,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 41280,
@@ -1807,7 +1807,7 @@
      "start": 41520,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 41760,
@@ -1819,67 +1819,67 @@
      "start": 42000,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 42240,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 42240,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 42480,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 42720,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 114
     },
     {
      "start": 42960,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 43200,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 43200,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 43440,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 43680,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 43920,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 44160,
@@ -1891,13 +1891,13 @@
      "start": 44160,
      "dur": 240,
      "pitch": 38,
-     "vel": 91
+     "vel": 89
     },
     {
      "start": 44400,
      "dur": 240,
-     "pitch": 50,
-     "vel": 83
+     "pitch": 38,
+     "vel": 85
     },
     {
      "start": 44640,
@@ -1909,12 +1909,12 @@
      "start": 44640,
      "dur": 240,
      "pitch": 38,
-     "vel": 81
+     "vel": 89
     },
     {
      "start": 44880,
      "dur": 240,
-     "pitch": 48,
+     "pitch": 38,
      "vel": 97
     },
     {
@@ -1927,13 +1927,13 @@
      "start": 45120,
      "dur": 240,
      "pitch": 38,
-     "vel": 97
+     "vel": 99
     },
     {
      "start": 45360,
      "dur": 240,
-     "pitch": 47,
-     "vel": 96
+     "pitch": 38,
+     "vel": 88
     },
     {
      "start": 45600,
@@ -1945,19 +1945,19 @@
      "start": 45600,
      "dur": 240,
      "pitch": 38,
-     "vel": 90
+     "vel": 98
     },
     {
      "start": 45840,
      "dur": 240,
-     "pitch": 43,
-     "vel": 103
+     "pitch": 38,
+     "vel": 94
     },
     {
      "start": 46080,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 46080,
@@ -1969,61 +1969,61 @@
      "start": 46320,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 110
     },
     {
      "start": 46560,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 46560,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 46800,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 47040,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 115
     },
     {
      "start": 47040,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 109
     },
     {
      "start": 47280,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 109
     },
     {
      "start": 47520,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
+     "vel": 115
     },
     {
      "start": 47520,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 112
     },
     {
      "start": 47760,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 48000,
@@ -2047,61 +2047,61 @@
      "start": 48480,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 48480,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 48720,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 48960,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 48960,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 49200,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 49440,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 49440,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 49680,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 49920,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 49920,
@@ -2113,31 +2113,31 @@
      "start": 50160,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 50400,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 119
     },
     {
      "start": 50400,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 50640,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 50880,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 50880,
@@ -2149,115 +2149,115 @@
      "start": 51120,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 51360,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 117
     },
     {
      "start": 51360,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 51600,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 51840,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 51840,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 52080,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 52320,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 52320,
      "dur": 240,
      "pitch": 49,
-     "vel": 118
+     "vel": 117
     },
     {
      "start": 52560,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 119
     },
     {
      "start": 52800,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 110
     },
     {
      "start": 52800,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 53040,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 53280,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 53280,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 113
     },
     {
      "start": 53520,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 112
     },
     {
      "start": 53760,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 53760,
      "dur": 240,
      "pitch": 49,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 54000,
      "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 114
     },
     {
      "start": 54240,
@@ -2269,61 +2269,61 @@
      "start": 54240,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 54480,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 54720,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 54720,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 115
     },
     {
      "start": 54960,
      "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 111
     },
     {
      "start": 55200,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 118
     },
     {
      "start": 55200,
      "dur": 240,
      "pitch": 49,
-     "vel": 119
+     "vel": 114
     },
     {
      "start": 55440,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 55680,
-     "dur": 240,
-     "pitch": 36,
      "vel": 114
     },
     {
      "start": 55680,
      "dur": 240,
-     "pitch": 49,
+     "pitch": 36,
      "vel": 113
+    },
+    {
+     "start": 55680,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 117
     },
     {
      "start": 55920,
@@ -2335,67 +2335,67 @@
      "start": 56160,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 56160,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 56400,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 56640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 56640,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 111
     },
     {
      "start": 56880,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 57120,
-     "dur": 240,
-     "pitch": 36,
      "vel": 116
     },
     {
      "start": 57120,
      "dur": 240,
+     "pitch": 36,
+     "vel": 115
+    },
+    {
+     "start": 57120,
+     "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 110
     },
     {
      "start": 57360,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 57600,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 115
     },
     {
      "start": 57600,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 57840,
@@ -2407,79 +2407,79 @@
      "start": 58080,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 58080,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 58320,
      "dur": 240,
      "pitch": 38,
-     "vel": 119
-    },
-    {
-     "start": 58560,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 58560,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 117
-    },
-    {
-     "start": 58800,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 59040,
-     "dur": 240,
-     "pitch": 36,
      "vel": 114
     },
     {
-     "start": 59040,
+     "start": 58560,
      "dur": 240,
-     "pitch": 49,
+     "pitch": 36,
      "vel": 113
     },
     {
-     "start": 59280,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 59520,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 59520,
+     "start": 58560,
      "dur": 240,
      "pitch": 49,
      "vel": 116
     },
     {
+     "start": 58800,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 116
+    },
+    {
+     "start": 59040,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 59040,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 114
+    },
+    {
+     "start": 59280,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 116
+    },
+    {
+     "start": 59520,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 114
+    },
+    {
+     "start": 59520,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 114
+    },
+    {
      "start": 59760,
      "dur": 240,
      "pitch": 38,
-     "vel": 120
+     "vel": 114
     },
     {
      "start": 60000,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 60000,
@@ -2491,19 +2491,19 @@
      "start": 60240,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 60480,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 60480,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 60720,
@@ -2515,31 +2515,31 @@
      "start": 60960,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 119
     },
     {
      "start": 60960,
      "dur": 240,
      "pitch": 49,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 61200,
      "dur": 240,
      "pitch": 38,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 61440,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 61440,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 61680,
@@ -2557,73 +2557,73 @@
      "start": 61920,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 62160,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 62400,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 62400,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 121
     },
     {
      "start": 62640,
      "dur": 240,
      "pitch": 38,
-     "vel": 119
+     "vel": 116
     },
     {
      "start": 62880,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 62880,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 114
-    },
-    {
-     "start": 63120,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 63360,
      "dur": 240,
      "pitch": 36,
      "vel": 116
     },
     {
-     "start": 63360,
+     "start": 62880,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 113
     },
     {
-     "start": 63600,
+     "start": 63120,
      "dur": 240,
      "pitch": 38,
      "vel": 114
     },
     {
+     "start": 63360,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 113
+    },
+    {
+     "start": 63360,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 116
+    },
+    {
+     "start": 63600,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 115
+    },
+    {
      "start": 63840,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 63840,
@@ -2635,19 +2635,19 @@
      "start": 64080,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 64320,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 64320,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 64560,
@@ -2659,19 +2659,19 @@
      "start": 64800,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 64800,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 65040,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 65280,
@@ -2683,7 +2683,7 @@
      "start": 65280,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 65520,
@@ -2701,31 +2701,31 @@
      "start": 65760,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 66000,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 66240,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 66240,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 66480,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 66720,
@@ -2743,13 +2743,13 @@
      "start": 66960,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 67200,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 118
     },
     {
      "start": 67200,
@@ -2761,7 +2761,7 @@
      "start": 67440,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 67680,
@@ -2773,25 +2773,25 @@
      "start": 67680,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 67920,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 68160,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 68160,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 68400,
@@ -2803,67 +2803,67 @@
      "start": 68640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 68640,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 68880,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 69120,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 112
     },
     {
      "start": 69120,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 69360,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 69600,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 69600,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 69840,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 70080,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 70080,
      "dur": 240,
      "pitch": 49,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 70320,
@@ -2881,25 +2881,25 @@
      "start": 70560,
      "dur": 240,
      "pitch": 49,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 70800,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 117
     },
     {
      "start": 71040,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 71040,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 71280,
@@ -2911,31 +2911,31 @@
      "start": 71520,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 115
     },
     {
      "start": 71520,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 71760,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 72000,
-     "dur": 240,
-     "pitch": 36,
      "vel": 112
     },
     {
      "start": 72000,
      "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 72000,
+     "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 72240,
@@ -2947,25 +2947,25 @@
      "start": 72480,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 72480,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 72720,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 72960,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 72960,
@@ -2977,61 +2977,61 @@
      "start": 73200,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
-    },
-    {
-     "start": 73440,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 114
-    },
-    {
-     "start": 73440,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 114
-    },
-    {
-     "start": 73680,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 119
-    },
-    {
-     "start": 73920,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 73920,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 117
-    },
-    {
-     "start": 74160,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 116
-    },
-    {
-     "start": 74400,
-     "dur": 240,
-     "pitch": 36,
      "vel": 118
     },
     {
-     "start": 74400,
+     "start": 73440,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 115
+    },
+    {
+     "start": 73440,
      "dur": 240,
      "pitch": 49,
      "vel": 115
     },
     {
+     "start": 73680,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 115
+    },
+    {
+     "start": 73920,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 118
+    },
+    {
+     "start": 73920,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 118
+    },
+    {
+     "start": 74160,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 115
+    },
+    {
+     "start": 74400,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 118
+    },
+    {
+     "start": 74400,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 114
+    },
+    {
      "start": 74640,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 74880,
@@ -3043,13 +3043,13 @@
      "start": 74880,
      "dur": 240,
      "pitch": 38,
-     "vel": 100
+     "vel": 107
     },
     {
      "start": 75120,
      "dur": 240,
-     "pitch": 38,
-     "vel": 102
+     "pitch": 50,
+     "vel": 85
     },
     {
      "start": 75360,
@@ -3061,13 +3061,13 @@
      "start": 75360,
      "dur": 240,
      "pitch": 38,
-     "vel": 95
+     "vel": 87
     },
     {
      "start": 75600,
      "dur": 240,
-     "pitch": 38,
-     "vel": 93
+     "pitch": 48,
+     "vel": 97
     },
     {
      "start": 75840,
@@ -3079,13 +3079,13 @@
      "start": 75840,
      "dur": 240,
      "pitch": 38,
-     "vel": 86
+     "vel": 106
     },
     {
      "start": 76080,
      "dur": 240,
-     "pitch": 38,
-     "vel": 86
+     "pitch": 47,
+     "vel": 87
     },
     {
      "start": 76320,
@@ -3097,13 +3097,13 @@
      "start": 76320,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 76560,
      "dur": 240,
-     "pitch": 38,
-     "vel": 99
+     "pitch": 43,
+     "vel": 104
     },
     {
      "start": 76800,
@@ -3595,7 +3595,7 @@
      "start": 107520,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 107520,
@@ -3607,43 +3607,43 @@
      "start": 107520,
      "dur": 240,
      "pitch": 52,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 107760,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 108000,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 108240,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 108480,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 108480,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 108720,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 117
     },
     {
      "start": 108960,
@@ -3655,13 +3655,13 @@
      "start": 109200,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 109440,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 109440,
@@ -3679,31 +3679,31 @@
      "start": 109680,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 109920,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 110160,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 110400,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 110400,
      "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 110640,
@@ -3715,19 +3715,19 @@
      "start": 110880,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 111120,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 111360,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 114
     },
     {
      "start": 111360,
@@ -3739,13 +3739,13 @@
      "start": 111600,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 111840,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 112080,
@@ -3757,67 +3757,67 @@
      "start": 112320,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 112320,
      "dur": 240,
      "pitch": 52,
-     "vel": 112
+     "vel": 115
     },
     {
      "start": 112560,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 112800,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 113040,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 113280,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 113280,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 113280,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 113520,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 109
     },
     {
      "start": 113760,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 114000,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 114240,
@@ -3829,43 +3829,43 @@
      "start": 114240,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 114480,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 114720,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 114960,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 115200,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 115200,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 115440,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 115680,
@@ -3877,13 +3877,13 @@
      "start": 115920,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 112
     },
     {
      "start": 116160,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 116160,
@@ -3895,7 +3895,7 @@
      "start": 116400,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 116640,
@@ -3907,13 +3907,13 @@
      "start": 116880,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 117120,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 117120,
@@ -3925,67 +3925,67 @@
      "start": 117120,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 117360,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 117600,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 117840,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 118080,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 114
     },
     {
      "start": 118080,
      "dur": 240,
      "pitch": 52,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 118320,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 118560,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 118800,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 119040,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 117
     },
     {
      "start": 119040,
      "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 119280,
@@ -3997,43 +3997,43 @@
      "start": 119520,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 116
     },
     {
      "start": 119760,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 117
     },
     {
      "start": 120000,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 120000,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 120240,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 120480,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 120720,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 120960,
@@ -4045,43 +4045,43 @@
      "start": 120960,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 111
     },
     {
      "start": 120960,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 121200,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 121440,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 121680,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 121920,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 117
     },
     {
      "start": 121920,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 122160,
@@ -4093,37 +4093,37 @@
      "start": 122400,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 122640,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 122880,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 122880,
-     "dur": 240,
-     "pitch": 52,
-     "vel": 115
-    },
-    {
-     "start": 123120,
      "dur": 240,
      "pitch": 36,
      "vel": 114
     },
     {
+     "start": 122880,
+     "dur": 240,
+     "pitch": 52,
+     "vel": 116
+    },
+    {
+     "start": 123120,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 117
+    },
+    {
      "start": 123360,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 116
     },
     {
      "start": 123600,
@@ -4135,7 +4135,7 @@
      "start": 123840,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 123840,
@@ -4153,85 +4153,85 @@
      "start": 124320,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 124560,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 124800,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 114
     },
     {
      "start": 124800,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 124800,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 125040,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 125280,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 125520,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 125760,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 125760,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 126000,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 110
     },
     {
      "start": 126240,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 126480,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 126720,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 126720,
@@ -4243,181 +4243,181 @@
      "start": 126960,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 112
     },
     {
      "start": 127200,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 127440,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 127680,
-     "dur": 240,
-     "pitch": 36,
      "vel": 118
     },
     {
      "start": 127680,
      "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 127680,
+     "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 127920,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 128160,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 128400,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 128640,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 128640,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 128640,
      "dur": 240,
      "pitch": 52,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 128880,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 129120,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 118
     },
     {
      "start": 129360,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 129600,
-     "dur": 240,
-     "pitch": 36,
      "vel": 115
     },
     {
      "start": 129600,
      "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 129600,
+     "dur": 240,
      "pitch": 52,
-     "vel": 113
+     "vel": 118
     },
     {
      "start": 129840,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 130080,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 130320,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 130560,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 130560,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 130800,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 131040,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 131280,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 131520,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 131520,
      "dur": 240,
      "pitch": 52,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 131760,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 114
     },
     {
      "start": 132000,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 132240,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 132480,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 132480,
@@ -4429,7 +4429,7 @@
      "start": 132480,
      "dur": 240,
      "pitch": 52,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 132720,
@@ -4441,97 +4441,97 @@
      "start": 132960,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 120
     },
     {
      "start": 133200,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 111
     },
     {
      "start": 133440,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 133440,
      "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 133680,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 133920,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 115
     },
     {
      "start": 134160,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 134400,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 116
     },
     {
      "start": 134400,
      "dur": 240,
      "pitch": 52,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 134640,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 134880,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 135120,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 135360,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 135360,
      "dur": 240,
      "pitch": 52,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 135600,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 135840,
      "dur": 240,
      "pitch": 36,
-     "vel": 111
+     "vel": 115
     },
     {
      "start": 136080,
@@ -4548,14 +4548,14 @@
     {
      "start": 136320,
      "dur": 240,
-     "pitch": 50,
-     "vel": 98
+     "pitch": 38,
+     "vel": 101
     },
     {
      "start": 136560,
      "dur": 240,
-     "pitch": 50,
-     "vel": 94
+     "pitch": 38,
+     "vel": 89
     },
     {
      "start": 136800,
@@ -4566,14 +4566,14 @@
     {
      "start": 136800,
      "dur": 240,
-     "pitch": 48,
-     "vel": 97
+     "pitch": 38,
+     "vel": 94
     },
     {
      "start": 137040,
      "dur": 240,
-     "pitch": 48,
-     "vel": 85
+     "pitch": 38,
+     "vel": 104
     },
     {
      "start": 137280,
@@ -4584,14 +4584,14 @@
     {
      "start": 137280,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90
+     "pitch": 38,
+     "vel": 105
     },
     {
      "start": 137520,
      "dur": 240,
-     "pitch": 47,
-     "vel": 96
+     "pitch": 38,
+     "vel": 104
     },
     {
      "start": 137760,
@@ -4602,38 +4602,38 @@
     {
      "start": 137760,
      "dur": 240,
-     "pitch": 43,
-     "vel": 100
+     "pitch": 38,
+     "vel": 89
     },
     {
      "start": 138000,
      "dur": 240,
-     "pitch": 43,
-     "vel": 89
+     "pitch": 38,
+     "vel": 95
     },
     {
      "start": 138240,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 138240,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 118
     },
     {
      "start": 138480,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 138720,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 138720,
@@ -4645,19 +4645,19 @@
      "start": 138960,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 139200,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 139200,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 110
     },
     {
      "start": 139440,
@@ -4681,121 +4681,121 @@
      "start": 139920,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 117
     },
     {
      "start": 140160,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 140160,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 140400,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 140640,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 140640,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 114
-    },
-    {
-     "start": 140880,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 113
-    },
-    {
-     "start": 141120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 113
-    },
-    {
-     "start": 141120,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 113
-    },
-    {
-     "start": 141360,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 118
-    },
-    {
-     "start": 141600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 141600,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 118
-    },
-    {
-     "start": 141840,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 142080,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 112
-    },
-    {
-     "start": 142080,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 114
-    },
-    {
-     "start": 142320,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 142560,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 113
-    },
-    {
-     "start": 142560,
      "dur": 240,
      "pitch": 49,
      "vel": 116
     },
     {
+     "start": 140880,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 114
+    },
+    {
+     "start": 141120,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 115
+    },
+    {
+     "start": 141120,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 118
+    },
+    {
+     "start": 141360,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 116
+    },
+    {
+     "start": 141600,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 119
+    },
+    {
+     "start": 141600,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 119
+    },
+    {
+     "start": 141840,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 112
+    },
+    {
+     "start": 142080,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 114
+    },
+    {
+     "start": 142080,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 115
+    },
+    {
+     "start": 142320,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 116
+    },
+    {
+     "start": 142560,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 142560,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 118
+    },
+    {
      "start": 142800,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 116
     },
     {
      "start": 143040,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 143040,
@@ -4807,49 +4807,49 @@
      "start": 143280,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 143520,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 143520,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 118
-    },
-    {
-     "start": 143760,
-     "dur": 240,
-     "pitch": 38,
      "vel": 116
     },
     {
-     "start": 144000,
+     "start": 143520,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 112
     },
     {
-     "start": 144000,
+     "start": 143520,
      "dur": 240,
      "pitch": 49,
      "vel": 113
     },
     {
+     "start": 143760,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 117
+    },
+    {
+     "start": 144000,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 118
+    },
+    {
+     "start": 144000,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 114
+    },
+    {
      "start": 144240,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 144480,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 144480,
@@ -4861,31 +4861,31 @@
      "start": 144720,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 112
     },
     {
      "start": 144960,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 144960,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 145200,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 145440,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 113
     },
     {
      "start": 145440,
@@ -4897,13 +4897,13 @@
      "start": 145680,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 145920,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 145920,
@@ -4915,13 +4915,13 @@
      "start": 146160,
      "dur": 240,
      "pitch": 38,
-     "vel": 112
+     "vel": 115
     },
     {
      "start": 146400,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 146400,
@@ -4933,13 +4933,13 @@
      "start": 146640,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 146880,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 146880,
@@ -4951,37 +4951,37 @@
      "start": 147120,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 147360,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 147360,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 147600,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 147840,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 147840,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 148080,
@@ -4993,31 +4993,31 @@
      "start": 148320,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 148320,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 148560,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 148800,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 148800,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 149040,
@@ -5029,13 +5029,13 @@
      "start": 149280,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 149280,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 117
     },
     {
      "start": 149520,
@@ -5047,115 +5047,115 @@
      "start": 149760,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 149760,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 150000,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 150240,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 150240,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 150480,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 150720,
-     "dur": 240,
-     "pitch": 36,
      "vel": 115
     },
     {
      "start": 150720,
      "dur": 240,
+     "pitch": 36,
+     "vel": 117
+    },
+    {
+     "start": 150720,
+     "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 150960,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 151200,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 151200,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 151440,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 151680,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 151680,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 116
-    },
-    {
-     "start": 151920,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 152160,
      "dur": 240,
      "pitch": 36,
      "vel": 113
     },
     {
+     "start": 151680,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 113
+    },
+    {
+     "start": 151920,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 115
+    },
+    {
+     "start": 152160,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 117
+    },
+    {
      "start": 152160,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 152400,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 152640,
      "dur": 240,
      "pitch": 36,
-     "vel": 110
+     "vel": 117
     },
     {
      "start": 152640,
@@ -5167,61 +5167,61 @@
      "start": 152880,
      "dur": 240,
      "pitch": 38,
-     "vel": 120
+     "vel": 116
     },
     {
      "start": 153120,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 153120,
      "dur": 240,
      "pitch": 49,
-     "vel": 120
+     "vel": 114
     },
     {
      "start": 153360,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 153600,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 153600,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 118
     },
     {
      "start": 153840,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 154080,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 114
     },
     {
      "start": 154080,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 154320,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 154560,
@@ -5239,13 +5239,13 @@
      "start": 154800,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 155040,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 155040,
@@ -5257,19 +5257,19 @@
      "start": 155280,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 114
     },
     {
      "start": 155520,
      "dur": 240,
      "pitch": 36,
-     "vel": 112
+     "vel": 116
     },
     {
      "start": 155520,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 119
     },
     {
      "start": 155760,
@@ -5281,13 +5281,13 @@
      "start": 156000,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 156000,
      "dur": 240,
      "pitch": 49,
-     "vel": 111
+     "vel": 115
     },
     {
      "start": 156240,
@@ -5299,7 +5299,7 @@
      "start": 156480,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 156480,
@@ -5311,7 +5311,7 @@
      "start": 156720,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 119
     },
     {
      "start": 156960,
@@ -5323,13 +5323,13 @@
      "start": 156960,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 119
     },
     {
      "start": 157200,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 118
     },
     {
      "start": 157440,
@@ -5341,73 +5341,73 @@
      "start": 157440,
      "dur": 240,
      "pitch": 49,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 157680,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 157920,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 157920,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 158160,
      "dur": 240,
      "pitch": 38,
-     "vel": 111
+     "vel": 115
     },
     {
      "start": 158400,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 120
     },
     {
      "start": 158400,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 113
     },
     {
      "start": 158640,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 158880,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 158880,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 159120,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 159360,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 159360,
@@ -5419,19 +5419,19 @@
      "start": 159600,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
-    },
-    {
-     "start": 159840,
-     "dur": 240,
-     "pitch": 36,
      "vel": 113
     },
     {
      "start": 159840,
      "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 159840,
+     "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 112
     },
     {
      "start": 160080,
@@ -5443,25 +5443,25 @@
      "start": 160320,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 118
     },
     {
      "start": 160320,
      "dur": 240,
      "pitch": 49,
-     "vel": 115
+     "vel": 116
     },
     {
      "start": 160560,
      "dur": 240,
      "pitch": 38,
-     "vel": 118
+     "vel": 113
     },
     {
      "start": 160800,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 160800,
@@ -5479,7 +5479,7 @@
      "start": 161280,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 114
     },
     {
      "start": 161280,
@@ -5491,7 +5491,7 @@
      "start": 161520,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 161760,
@@ -5503,25 +5503,25 @@
      "start": 161760,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 116
     },
     {
      "start": 162000,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 112
     },
     {
      "start": 162240,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 114
     },
     {
      "start": 162240,
      "dur": 240,
      "pitch": 49,
-     "vel": 116
+     "vel": 115
     },
     {
      "start": 162480,
@@ -5533,7 +5533,7 @@
      "start": 162720,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 115
     },
     {
      "start": 162720,
@@ -5545,37 +5545,37 @@
      "start": 162960,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 113
     },
     {
      "start": 163200,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
+     "vel": 113
     },
     {
      "start": 163200,
      "dur": 240,
      "pitch": 49,
-     "vel": 114
+     "vel": 115
     },
     {
      "start": 163440,
      "dur": 240,
      "pitch": 38,
-     "vel": 114
+     "vel": 118
     },
     {
      "start": 163680,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 163680,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 163920,
@@ -5593,37 +5593,37 @@
      "start": 164160,
      "dur": 240,
      "pitch": 49,
-     "vel": 112
+     "vel": 118
     },
     {
      "start": 164400,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 116
     },
     {
      "start": 164640,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
+     "vel": 113
     },
     {
      "start": 164640,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 164880,
      "dur": 240,
      "pitch": 38,
-     "vel": 116
+     "vel": 117
     },
     {
      "start": 165120,
      "dur": 240,
      "pitch": 36,
-     "vel": 113
+     "vel": 119
     },
     {
      "start": 165120,
@@ -5635,31 +5635,31 @@
      "start": 165360,
      "dur": 240,
      "pitch": 38,
-     "vel": 117
+     "vel": 116
     },
     {
      "start": 165600,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 113
     },
     {
      "start": 165600,
      "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 114
     },
     {
      "start": 165840,
      "dur": 240,
      "pitch": 38,
-     "vel": 115
+     "vel": 117
     },
     {
      "start": 166080,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 111
     },
     {
      "start": 166080,
@@ -5671,25 +5671,25 @@
      "start": 166320,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
-    },
-    {
-     "start": 166560,
-     "dur": 240,
-     "pitch": 36,
      "vel": 115
     },
     {
      "start": 166560,
      "dur": 240,
+     "pitch": 36,
+     "vel": 116
+    },
+    {
+     "start": 166560,
+     "dur": 240,
      "pitch": 49,
-     "vel": 117
+     "vel": 115
     },
     {
      "start": 166800,
      "dur": 240,
      "pitch": 38,
-     "vel": 113
+     "vel": 117
     },
     {
      "start": 167040,
@@ -5700,14 +5700,14 @@
     {
      "start": 167040,
      "dur": 240,
-     "pitch": 50,
-     "vel": 95
+     "pitch": 38,
+     "vel": 114
     },
     {
      "start": 167280,
      "dur": 240,
      "pitch": 50,
-     "vel": 85
+     "vel": 93
     },
     {
      "start": 167520,
@@ -5718,14 +5718,14 @@
     {
      "start": 167520,
      "dur": 240,
-     "pitch": 48,
-     "vel": 92
+     "pitch": 38,
+     "vel": 101
     },
     {
      "start": 167760,
      "dur": 240,
      "pitch": 48,
-     "vel": 90
+     "vel": 98
     },
     {
      "start": 168000,
@@ -5736,14 +5736,14 @@
     {
      "start": 168000,
      "dur": 240,
-     "pitch": 47,
-     "vel": 96
+     "pitch": 38,
+     "vel": 88
     },
     {
      "start": 168240,
      "dur": 240,
      "pitch": 47,
-     "vel": 81
+     "vel": 94
     },
     {
      "start": 168480,
@@ -5754,14 +5754,14 @@
     {
      "start": 168480,
      "dur": 240,
-     "pitch": 43,
-     "vel": 93
+     "pitch": 38,
+     "vel": 94
     },
     {
      "start": 168720,
      "dur": 240,
      "pitch": 43,
-     "vel": 91
+     "vel": 97
     },
     {
      "start": 168960,
@@ -5791,7 +5791,7 @@
      "start": 169440,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 169680,
@@ -5803,19 +5803,19 @@
      "start": 169920,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
-    },
-    {
-     "start": 169920,
-     "dur": 240,
-     "pitch": 38,
      "vel": 107
     },
     {
      "start": 169920,
      "dur": 240,
+     "pitch": 38,
+     "vel": 105
+    },
+    {
+     "start": 169920,
+     "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 170160,
@@ -5827,7 +5827,7 @@
      "start": 170400,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 106
     },
     {
      "start": 170640,
@@ -5839,25 +5839,25 @@
      "start": 170880,
      "dur": 240,
      "pitch": 36,
-     "vel": 103
+     "vel": 107
     },
     {
      "start": 170880,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 105
     },
     {
      "start": 170880,
      "dur": 240,
      "pitch": 49,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 171120,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 101
     },
     {
      "start": 171360,
@@ -5869,19 +5869,19 @@
      "start": 171600,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 106
     },
     {
      "start": 171840,
      "dur": 240,
      "pitch": 36,
-     "vel": 104
+     "vel": 103
     },
     {
      "start": 171840,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 105
     },
     {
      "start": 171840,
@@ -5893,67 +5893,67 @@
      "start": 172080,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 172320,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 104
     },
     {
      "start": 172560,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 109
     },
     {
      "start": 172800,
      "dur": 240,
      "pitch": 36,
+     "vel": 105
+    },
+    {
+     "start": 172800,
+     "dur": 240,
+     "pitch": 38,
      "vel": 107
     },
     {
      "start": 172800,
      "dur": 240,
-     "pitch": 38,
-     "vel": 104
-    },
-    {
-     "start": 172800,
-     "dur": 240,
      "pitch": 49,
-     "vel": 108
+     "vel": 106
     },
     {
      "start": 173040,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 173280,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 173520,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 173760,
      "dur": 240,
      "pitch": 36,
-     "vel": 103
+     "vel": 104
     },
     {
      "start": 173760,
      "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 107
     },
     {
      "start": 173760,
@@ -5965,19 +5965,19 @@
      "start": 174000,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 108
     },
     {
      "start": 174240,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 174480,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 174720,
@@ -5989,73 +5989,73 @@
      "start": 174720,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 108
     },
     {
      "start": 174720,
-     "dur": 240,
-     "pitch": 49,
-     "vel": 110
-    },
-    {
-     "start": 174960,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 105
-    },
-    {
-     "start": 175200,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 106
-    },
-    {
-     "start": 175440,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 103
-    },
-    {
-     "start": 175680,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 107
-    },
-    {
-     "start": 175680,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 107
-    },
-    {
-     "start": 175680,
      "dur": 240,
      "pitch": 49,
      "vel": 104
     },
     {
-     "start": 175920,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 106
-    },
-    {
-     "start": 176160,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 109
-    },
-    {
-     "start": 176400,
+     "start": 174960,
      "dur": 240,
      "pitch": 38,
      "vel": 107
     },
     {
-     "start": 176640,
+     "start": 175200,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 102
+    },
+    {
+     "start": 175440,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 104
+    },
+    {
+     "start": 175680,
      "dur": 240,
      "pitch": 36,
      "vel": 106
+    },
+    {
+     "start": 175680,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 106
+    },
+    {
+     "start": 175680,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 106
+    },
+    {
+     "start": 175920,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 105
+    },
+    {
+     "start": 176160,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 108
+    },
+    {
+     "start": 176400,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 106
+    },
+    {
+     "start": 176640,
+     "dur": 240,
+     "pitch": 36,
+     "vel": 103
     },
     {
      "start": 176640,
@@ -6067,34 +6067,22 @@
      "start": 176640,
      "dur": 240,
      "pitch": 49,
-     "vel": 107
+     "vel": 106
     },
     {
      "start": 176880,
      "dur": 240,
      "pitch": 38,
-     "vel": 102
+     "vel": 107
     },
     {
      "start": 177120,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 104
     },
     {
      "start": 177360,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 107
-    },
-    {
-     "start": 177600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 107
-    },
-    {
-     "start": 177600,
      "dur": 240,
      "pitch": 38,
      "vel": 108
@@ -6102,26 +6090,38 @@
     {
      "start": 177600,
      "dur": 240,
-     "pitch": 49,
+     "pitch": 36,
      "vel": 104
     },
     {
-     "start": 177840,
+     "start": 177600,
      "dur": 240,
      "pitch": 38,
      "vel": 105
     },
     {
+     "start": 177600,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 106
+    },
+    {
+     "start": 177840,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 108
+    },
+    {
      "start": 178080,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 104
     },
     {
      "start": 178320,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 108
     },
     {
      "start": 178560,
@@ -6133,19 +6133,19 @@
      "start": 178560,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 106
     },
     {
      "start": 178560,
      "dur": 240,
      "pitch": 49,
-     "vel": 105
+     "vel": 108
     },
     {
      "start": 178800,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 106
     },
     {
      "start": 179040,
@@ -6157,13 +6157,13 @@
      "start": 179280,
      "dur": 240,
      "pitch": 38,
-     "vel": 109
+     "vel": 106
     },
     {
      "start": 179520,
      "dur": 240,
      "pitch": 36,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 179520,
@@ -6175,13 +6175,13 @@
      "start": 179520,
      "dur": 240,
      "pitch": 49,
-     "vel": 105
+     "vel": 110
     },
     {
      "start": 179760,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 180000,
@@ -6193,79 +6193,79 @@
      "start": 180240,
      "dur": 240,
      "pitch": 38,
-     "vel": 109
+     "vel": 105
     },
     {
      "start": 180480,
      "dur": 240,
      "pitch": 36,
-     "vel": 109
+     "vel": 107
     },
     {
      "start": 180480,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 107
     },
     {
      "start": 180480,
      "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 103
     },
     {
      "start": 180720,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 103
     },
     {
      "start": 180960,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 104
     },
     {
      "start": 181200,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 181440,
      "dur": 240,
      "pitch": 36,
-     "vel": 107
+     "vel": 108
     },
     {
      "start": 181440,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 181440,
      "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 181680,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 104
     },
     {
      "start": 181920,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 103
     },
     {
      "start": 182160,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 182400,
@@ -6277,61 +6277,61 @@
      "start": 182400,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 106
     },
     {
      "start": 182400,
      "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 182640,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 107
     },
     {
      "start": 182880,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 107
     },
     {
      "start": 183120,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 107
     },
     {
      "start": 183360,
      "dur": 240,
      "pitch": 36,
-     "vel": 108
+     "vel": 103
     },
     {
      "start": 183360,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 183360,
      "dur": 240,
      "pitch": 49,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 183600,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 105
     },
     {
      "start": 183840,
      "dur": 240,
      "pitch": 38,
-     "vel": 102
+     "vel": 106
     },
     {
      "start": 184080,
@@ -6343,7 +6343,7 @@
      "start": 184320,
      "dur": 240,
      "pitch": 36,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 184320,
@@ -6355,7 +6355,7 @@
      "start": 184320,
      "dur": 240,
      "pitch": 49,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 184560,
@@ -6367,37 +6367,37 @@
      "start": 184800,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 106
     },
     {
      "start": 185040,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 104
     },
     {
      "start": 185280,
      "dur": 240,
      "pitch": 36,
-     "vel": 103
+     "vel": 107
     },
     {
      "start": 185280,
      "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 108
     },
     {
      "start": 185280,
      "dur": 240,
      "pitch": 49,
-     "vel": 107
+     "vel": 103
     },
     {
      "start": 185520,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 185760,
@@ -6409,61 +6409,61 @@
      "start": 186000,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
-    },
-    {
-     "start": 186240,
-     "dur": 240,
-     "pitch": 36,
      "vel": 105
     },
     {
      "start": 186240,
      "dur": 240,
-     "pitch": 38,
+     "pitch": 36,
      "vel": 103
     },
     {
      "start": 186240,
      "dur": 240,
+     "pitch": 38,
+     "vel": 102
+    },
+    {
+     "start": 186240,
+     "dur": 240,
      "pitch": 49,
-     "vel": 103
+     "vel": 107
     },
     {
      "start": 186480,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 186720,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 186960,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 187200,
      "dur": 240,
      "pitch": 36,
-     "vel": 105
+     "vel": 104
     },
     {
      "start": 187200,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 107
     },
     {
      "start": 187200,
      "dur": 240,
      "pitch": 49,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 187440,
@@ -6475,163 +6475,163 @@
      "start": 187680,
      "dur": 240,
      "pitch": 38,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 187920,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
-    },
-    {
-     "start": 188160,
-     "dur": 240,
-     "pitch": 36,
      "vel": 106
     },
     {
      "start": 188160,
      "dur": 240,
+     "pitch": 36,
+     "vel": 104
+    },
+    {
+     "start": 188160,
+     "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 188160,
      "dur": 240,
      "pitch": 49,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 188400,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 109
     },
     {
      "start": 188640,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 105
     },
     {
      "start": 188880,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
-    },
-    {
-     "start": 189120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 104
-    },
-    {
-     "start": 189120,
-     "dur": 240,
-     "pitch": 38,
      "vel": 108
     },
     {
      "start": 189120,
      "dur": 240,
+     "pitch": 36,
+     "vel": 101
+    },
+    {
+     "start": 189120,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 107
+    },
+    {
+     "start": 189120,
+     "dur": 240,
      "pitch": 49,
-     "vel": 106
+     "vel": 109
     },
     {
      "start": 189360,
      "dur": 240,
      "pitch": 38,
-     "vel": 101
+     "vel": 104
     },
     {
      "start": 189600,
      "dur": 240,
      "pitch": 38,
-     "vel": 109
+     "vel": 108
     },
     {
      "start": 189840,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 190080,
      "dur": 240,
      "pitch": 36,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 190080,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 110
     },
     {
      "start": 190080,
      "dur": 240,
      "pitch": 49,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 190320,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 106
     },
     {
      "start": 190560,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 107
     },
     {
      "start": 190800,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 191040,
      "dur": 240,
      "pitch": 36,
-     "vel": 107
+     "vel": 104
     },
     {
      "start": 191040,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 108
     },
     {
      "start": 191040,
      "dur": 240,
      "pitch": 49,
-     "vel": 103
+     "vel": 106
     },
     {
      "start": 191280,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 103
     },
     {
      "start": 191520,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 191760,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 192000,
      "dur": 240,
      "pitch": 36,
-     "vel": 104
+     "vel": 109
     },
     {
      "start": 192000,
@@ -6649,7 +6649,7 @@
      "start": 192240,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 104
     },
     {
      "start": 192480,
@@ -6661,7 +6661,7 @@
      "start": 192720,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 104
     },
     {
      "start": 192960,
@@ -6673,13 +6673,13 @@
      "start": 192960,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 192960,
      "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 193200,
@@ -6691,7 +6691,7 @@
      "start": 193440,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 193680,
@@ -6703,43 +6703,43 @@
      "start": 193920,
      "dur": 240,
      "pitch": 36,
-     "vel": 105
+     "vel": 104
     },
     {
      "start": 193920,
      "dur": 240,
      "pitch": 38,
-     "vel": 109
+     "vel": 105
     },
     {
      "start": 193920,
      "dur": 240,
      "pitch": 49,
-     "vel": 105
+     "vel": 109
     },
     {
      "start": 194160,
      "dur": 240,
      "pitch": 38,
-     "vel": 110
+     "vel": 108
     },
     {
      "start": 194400,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 107
     },
     {
      "start": 194640,
      "dur": 240,
      "pitch": 38,
-     "vel": 108
+     "vel": 107
     },
     {
      "start": 194880,
      "dur": 240,
      "pitch": 36,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 194880,
@@ -6751,37 +6751,37 @@
      "start": 194880,
      "dur": 240,
      "pitch": 49,
-     "vel": 108
+     "vel": 106
     },
     {
      "start": 195120,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 103
     },
     {
      "start": 195360,
      "dur": 240,
      "pitch": 38,
-     "vel": 109
+     "vel": 104
     },
     {
      "start": 195600,
      "dur": 240,
      "pitch": 38,
-     "vel": 106
+     "vel": 105
     },
     {
      "start": 195840,
      "dur": 240,
      "pitch": 36,
-     "vel": 107
+     "vel": 105
     },
     {
      "start": 195840,
      "dur": 240,
      "pitch": 38,
-     "vel": 103
+     "vel": 105
     },
     {
      "start": 195840,
@@ -6799,22 +6799,10 @@
      "start": 196320,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 108
     },
     {
      "start": 196560,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 105
-    },
-    {
-     "start": 196800,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 105
-    },
-    {
-     "start": 196800,
      "dur": 240,
      "pitch": 38,
      "vel": 106
@@ -6822,20 +6810,32 @@
     {
      "start": 196800,
      "dur": 240,
+     "pitch": 36,
+     "vel": 106
+    },
+    {
+     "start": 196800,
+     "dur": 240,
+     "pitch": 38,
+     "vel": 107
+    },
+    {
+     "start": 196800,
+     "dur": 240,
      "pitch": 49,
-     "vel": 104
+     "vel": 106
     },
     {
      "start": 197040,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 106
     },
     {
      "start": 197280,
      "dur": 240,
      "pitch": 38,
-     "vel": 105
+     "vel": 103
     },
     {
      "start": 197520,
@@ -6853,13 +6853,13 @@
      "start": 197760,
      "dur": 240,
      "pitch": 38,
-     "vel": 104
+     "vel": 105
     },
     {
      "start": 198000,
      "dur": 240,
-     "pitch": 50,
-     "vel": 102
+     "pitch": 38,
+     "vel": 96
     },
     {
      "start": 198240,
@@ -6871,13 +6871,13 @@
      "start": 198240,
      "dur": 240,
      "pitch": 38,
-     "vel": 92
+     "vel": 87
     },
     {
      "start": 198480,
      "dur": 240,
-     "pitch": 48,
-     "vel": 97
+     "pitch": 38,
+     "vel": 86
     },
     {
      "start": 198720,
@@ -6889,13 +6889,13 @@
      "start": 198720,
      "dur": 240,
      "pitch": 38,
-     "vel": 101
+     "vel": 105
     },
     {
      "start": 198960,
      "dur": 240,
-     "pitch": 47,
-     "vel": 103
+     "pitch": 38,
+     "vel": 98
     },
     {
      "start": 199200,
@@ -6907,13 +6907,13 @@
      "start": 199200,
      "dur": 240,
      "pitch": 38,
-     "vel": 97
+     "vel": 104
     },
     {
      "start": 199440,
      "dur": 240,
-     "pitch": 43,
-     "vel": 97
+     "pitch": 38,
+     "vel": 103
     },
     {
      "start": 199680,

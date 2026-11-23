@@ -15,6 +15,23 @@ export const LIMITS = {
 
 const SEVERITY = ['hint', 'warning', 'error'];
 
+const gcd = (a, b) => (b ? gcd(b, a % b) : Math.abs(a));
+const fracAdd = ([a, b], [c, d]) => {
+  const n = a * d + c * b;
+  const q = b * d;
+  const g = gcd(n, q) || 1;
+  return [n / g, q / g];
+};
+/** a beat's exact length in ticks (960 per quarter) as [num, den]: note value, dots, tuplet */
+function beatFrac(b) {
+  let num = 3840;
+  let den = b.duration; // alphaTab Duration enum: 1 whole, 2 half, 4 quarter ... negative = double/quadruple whole
+  if (den < 0) { num = 3840 * -den; den = 1; }
+  if (b.dots === 1) { num *= 3; den *= 2; } else if (b.dots === 2) { num *= 7; den *= 4; }
+  if (b.tupletNumerator > 0 && b.tupletDenominator > 0) { num *= b.tupletDenominator; den *= b.tupletNumerator; }
+  return fracAdd([0, 1], [num, den]);
+}
+
 function newSettings() {
   return new at.Settings();
 }
@@ -101,9 +118,12 @@ export function check(score) {
         const expected = mb.calculateDuration();
         bar.voices.forEach((voice, vi) => {
           if (voice.isEmpty) return;
-          const actual = voice.beats.reduce((sum, b) => sum + (b.graceType ? 0 : b.displayDuration), 0);
+          // exact (rational) length: alphaTab's integer ticks round 7- and 11-tuplets, so a full bar of
+          // septuplets would read as 3.999 beats
+          const exact = voice.beats.reduce((sum, b) => (b.graceType ? sum : fracAdd(sum, beatFrac(b))), [0, 1]);
+          const actual = exact[0] / exact[1];
           if (actual === 0) return;
-          if (actual !== expected) {
+          if (exact[0] !== expected * exact[1]) {
             const isPickup = bi === 0 && actual < expected;
             const isLast = bi === staff.bars.length - 1 && actual < expected;
             const ts = `${mb.timeSignatureNumerator}/${mb.timeSignatureDenominator}`;

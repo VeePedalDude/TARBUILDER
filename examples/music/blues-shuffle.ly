@@ -32,7 +32,7 @@ trackA = \drummode { \time 12/8 { \mark "Intro" <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
-    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd sn>8 sn8 <bd sn>8 sn8 <bd sn>8 sn8 |
+    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd sn>8 tomh8 <bd sn>8 tomml8 <bd sn>8 tomfh8 |
     \mark "Head" <bd cymc>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
@@ -44,9 +44,9 @@ trackA = \drummode { \time 12/8 { \mark "Intro" <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
     <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
-    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd sn>8 tomh8 <bd sn>8 tomml8 <bd sn>8 tomfh8 |
+    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd tomh>8 tomh8 <bd tommh>8 tomml8 <bd tomml>8 tomfh8 |
     \mark "Ending" <bd cymc>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 |
-    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd hh>4 hh8 <sn hh>8 r8 hh8 | } }
+    <bd hh>4 hh8 <sn hh>8 r8 hh8 <bd tomh>8 tomh8 <bd tommh>8 tomml8 <bd tomml>8 tomfh8 | } }
 
 trackB = { \clef "bass_8" \key e \major \time 12/8 { b,,4.\3^"B7" a,,8\3~ a,,4\3 b,,4.\3 gis,,8\4~ gis,,4\4 |
     a,,4.\3^"A7" fis,,8\4~ fis,,4\4 e,,4.\4 f,,8\4~ f,,4\4 |

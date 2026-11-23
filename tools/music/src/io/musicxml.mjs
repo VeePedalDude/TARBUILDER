@@ -36,7 +36,7 @@ function parseNoteSafe(n) {
   return parseNote(n);
 }
 
-const TYPE = { 1: 'whole', 2: 'half', 4: 'quarter', 8: 'eighth', 16: '16th', 32: '32nd', 64: '64th' };
+const TYPE = { 1: 'whole', 2: 'half', 4: 'quarter', 8: 'eighth', 16: '16th', 32: '32nd', 64: '64th', 128: '128th' };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -204,9 +204,10 @@ export function toMusicXml(songIn, options = {}) {
 function noteXml(it, track, key, voice, staffNo = null, partNo = 1) {
   const staffTag = staffNo ? `<staff>${staffNo}</staff>` : '';
   const type = TYPE[it.den];
-  const dots = it.dots ? '<dot/>' : '';
+  const dots = (it.dots ? '<dot/>' : '') + (it.tu ? `<time-modification><actual-notes>${it.tu.n}</actual-notes><normal-notes>${it.tu.m}</normal-notes></time-modification>` : '');
+  const tuplet = [it._tuStart ? '<tuplet type="start" bracket="yes"/>' : '', it._tuStop ? '<tuplet type="stop"/>' : ''].join('');
   if (it.kind === 'rest' || (track.kind === 'drums' && it.tieIn)) {
-    return [`<note><rest/><duration>${it.ticks}</duration><voice>${voice}</voice><type>${type}</type>${dots}${staffTag}</note>`];
+    return [`<note><rest/><duration>${it.ticks}</duration><voice>${voice}</voice><type>${type}</type>${dots}${staffTag}${tuplet ? `<notations>${tuplet}</notations>` : ''}</note>`];
   }
   const tieOut = it._tieOut;
   return it.notes.map((n, i) => {
@@ -229,6 +230,7 @@ function noteXml(it, track, key, voice, staffNo = null, partNo = 1) {
     if (track.kind === 'drums' && n.pitch !== 36 && n.pitch !== 35) x += '<stem>up</stem>';
     x += head + staffTag;
     const notations = [];
+    if (i === 0 && tuplet) notations.push(tuplet);
     if (it.tieIn) notations.push('<tied type="stop"/>');
     if (tieOut) notations.push('<tied type="start"/>');
     if (track.kind === 'fretted' && n.string && staffNo === 2) notations.push(`<technical><string>${n.string}</string><fret>${n.fret}</fret></technical>`);

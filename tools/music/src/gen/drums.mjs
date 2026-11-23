@@ -35,6 +35,65 @@ export const GROOVES = {
   'motorik': { meter: [4, 4], steps: 8, lanes: { hh: 'xxxxxxxx', kick: 'x.x.x.x.', snare: '..x...x.' } },
 };
 
+/**
+ * How a bar of num/den groups into beats, in den-units: x/4 -> 1s; 6/8, 9/8, 12/8 -> 3s;
+ * other x/8 -> 2s then 3s (7/8 = 2+2+3); x/16 -> 4s then 3s (13/16 = 4+3+3+3).
+ */
+export function meterGrouping(num, den) {
+  if (den <= 4) return Array(num).fill(1);
+  if (den === 8 && num % 3 === 0) return Array(num / 3).fill(3);
+  const split = (n, big) => {
+    for (let k = 0; 3 * k <= n; k++) if ((n - 3 * k) % big === 0) return [...Array((n - 3 * k) / big).fill(big), ...Array(k).fill(3)];
+    return null;
+  };
+  return (den >= 16 && split(num, 4)) || split(num, 2) || Array(num).fill(1);
+}
+
+// additive groove styles: what each lane does at the start of every beat group
+export const ADDITIVE = {
+  rock: { cym: 'hh', cymEvery: 1, kick: 'groups-odd', snare: 'groups-even' },
+  skank: { cym: 'ride', cymEvery: 1, kick: 'eighths-even', snare: 'eighths-odd' },
+  blast: { cym: 'crash', cymEvery: 2, kick: 'steps-even', snare: 'steps-odd' },
+  'double kick': { cym: 'china', cymEvery: 'group', kick: 'steps', snare: 'last-group' },
+  halftime: { cym: 'ride', cymEvery: 'group', kick: 'first', snare: 'last-group' },
+};
+
+/**
+ * A groove for any meter, built on its beat grouping (16th steps). style: a key of ADDITIVE.
+ * 7/8 rock = kick on groups 1 and 3, snare on group 2: | K . S . K . . |
+ */
+export function additiveGroove(num, den, { style = 'rock', grouping } = {}) {
+  const S = ADDITIVE[style] ?? ADDITIVE.rock;
+  const perUnit = 16 / den; // 16th steps per den-unit
+  if (!Number.isInteger(perUnit) || perUnit < 1) throw new Error(`additiveGroove: ${num}/${den} isn't on a 16th grid`);
+  const steps = num * perUnit;
+  const groups = grouping ?? meterGrouping(num, den);
+  const starts = [];
+  let u = 0;
+  for (const g of groups) { starts.push(u * perUnit); u += g; }
+  const lane = () => Array(steps).fill('.');
+  const cym = lane(); const kick = lane(); const snare = lane();
+  for (let i = 0; i < steps; i++) {
+    const unitStart = i % perUnit === 0;
+    if (S.cymEvery === 'group' ? starts.includes(i) : S.cymEvery === 2 ? i % 2 === 0 : unitStart) cym[i] = 'x';
+  }
+  starts.forEach((st, gi) => {
+    if (S.kick === 'groups-odd' && gi % 2 === 0) kick[st] = 'x';
+    if (S.snare === 'groups-even' && gi % 2 === 1) snare[st] = 'x';
+  });
+  if (S.snare === 'groups-even' && groups.length === 1) snare[Math.floor(steps / 2 / perUnit) * perUnit] = 'x';
+  if (S.snare === 'last-group') snare[starts[starts.length - 1]] = starts.length > 1 ? 'x' : '.';
+  if (S.kick === 'first') kick[0] = 'x';
+  for (let i = 0; i < steps; i++) {
+    if (S.kick === 'steps' || (S.kick === 'steps-even' && i % 2 === 0)) kick[i] = 'x';
+    if (S.snare === 'steps-odd' && i % 2 === 1) snare[i] = 'x';
+    if (S.kick === 'eighths-even' && i % 4 === 0) kick[i] = 'x';
+    if (S.snare === 'eighths-odd' && i % 4 === 2) snare[i] = 'x';
+  }
+  kick[0] = 'x';
+  return { meter: [num, den], steps, lanes: { [S.cym]: cym.join(''), kick: kick.join(''), snare: snare.join('') } };
+}
+
 export function listGrooves(meter) {
   return Object.entries(GROOVES).filter(([, g]) => !meter || (g.meter[0] === meter[0] && g.meter[1] === meter[1])).map(([n]) => n);
 }

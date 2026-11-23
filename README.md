@@ -33,7 +33,7 @@ node bin/tb.mjs help
 
 ## Examples
 
-`examples/` has hand-written alphaTex tabs. `examples/music/` has one of everything (rock, blues, metal, metalcore (drop C), deathcore (drop A), tech-death (B standard) and 6/8 songs,
+`examples/` has hand-written alphaTex tabs. `examples/music/` has one of everything (rock, blues, metal, metalcore (drop C), deathcore (drop A), tech-death (B standard), mathcore (changing meters, nested tuplets), a branching polyrhythm and 6/8 songs,
 a Coltrane-changes bebop line, an SATB chorale, species 2/4/5 counterpoint, a string quartet, Euclidean polymeter,
 a Tonnetz walk, a twelve-tone row, made-up theories incl. 7-limit just intonation, and an L-system piece). Rebuild with
 `node tools/music/examples/build.mjs`.

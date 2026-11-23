@@ -25,11 +25,14 @@ const song = tb.arrange({
 });
 ```
 
-Genres: rock pop punk metal metalcore deathcore tech-death blues jazz funk folk lofi reggae ballad (`tb list genres`). Each sets tempo range, keys,
+Genres: rock pop punk metal metalcore deathcore tech-death mathcore blues jazz funk folk lofi reggae ballad (`tb list genres`). Each sets tempo range, keys,
 meter, groove, form, progressions, comp and bass styles, plus optional per-section grooves/comps (`sectionGrooves`, `sectionComps`). Energy per section (0-1) thins or fills drums, comping and melody.
 Repeated sections reuse the same melody. In metal/metalcore/deathcore a `Breakdown` section is written by `breakdownRiff`
 (tonic chord, kick locked to the chugs, bass doubling, the last breakdown in deathcore drops to quarter time); deathcore and
-tech-death have no clean lead. Songs end on the tonic when the last section is an Outro/Ending.
+tech-death have no clean lead.
+Form entries take a 4th item for meters and special cells: `['Verse', 8, 0.8, { meters: [[7, 8], [5, 8]] }]`
+(cycled per bar), `{ poly: 7 }` (a 7-sixteenth riff against the bar), `{ branching: true, form: "a a' b a" }`
+(nested tuplets). Mathcore = odd-meter cells + a polymeter cell + a branching cell + a breakdown. See rhythm-lab. Songs end on the tonic when the last section is an Outro/Ending.
 
 ## Parts, one at a time
 

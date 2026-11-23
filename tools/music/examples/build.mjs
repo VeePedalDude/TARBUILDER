@@ -25,6 +25,7 @@ await save('metal-drop-d', tb.arrange({ genre: 'metal', seed: 5, title: 'Drop D 
 await save('metalcore-drop-c', tb.arrange({ genre: 'metalcore', seed: 4, title: 'Drop C Metalcore' }));
 await save('deathcore-drop-a', tb.arrange({ genre: 'deathcore', seed: 4, title: 'Drop A Deathcore' }));
 await save('tech-death-b', tb.arrange({ genre: 'tech-death', seed: 4, title: 'B Standard Tech-Death' }));
+await save('mathcore-cells', tb.arrange({ genre: 'mathcore', seed: 6, title: 'Mathcore Cells' }));
 await save('folk-ballad-68', tb.arrange({ genre: 'ballad', seed: 2, title: '6/8 Ballad' }));
 
 // 2. Jazz: ii-V-I changes, Coltrane reharm, guide tones and a bebop line
@@ -92,6 +93,22 @@ for (const species of [2, 4, 5]) {
     { pattern: tb.rhythm.euclid(2, 5), pitch: 'cowbell', vel: 80 },
   ]);
   await save('euclidean-polymeter', song);
+}
+
+// 6b. Branching polyrhythm: a 4-bar phrase (a a' b a) over 7/8 7/8 13/16 7/8; guitar splits each beat
+//     group in 3s and 5s, drums in 2s and 4s, bass splits the whole bar 5 ways first (5 against the bar)
+{
+  const song = tb.createSong({ title: 'Branching polyrhythm', key: 'E minor', tempo: 132, meter: [7, 8], bars: 4 });
+  song.meterChanges.push({ bar: 2, num: 13, den: 16 }, { bar: 3, num: 7, den: 8 });
+  const gtr = tb.addTrack(song, { name: 'Guitar', kind: 'fretted', program: 'Distortion Guitar', tuning: 'drop d' });
+  const bass = tb.addTrack(song, { name: 'Bass', kind: 'fretted', program: 'Electric Bass (finger)', tuning: 'bass drop d' });
+  const drums = tb.addTrack(song, { name: 'Drums', kind: 'drums' });
+  tb.branching.phraseRhythm(song, { seed: 7, form: "a a' b a", layers: [
+    { track: gtr, pitches: ['D2', 'D2', 'D#2', 'D2', 'G#2'], splits: [3, 5], depth: 1, fx: { pm: true } },
+    { track: drums, pitches: ['kick', 'snare', 'kick', 'kick'], splits: [2, 4], depth: 1 },
+    { track: bass, pitches: ['D1', 'A1', 'D1'], across: 5, splits: [2, 3], depth: 1, branchChance: 0.3 },
+  ] });
+  await save('branching-polyrhythm', song);
 }
 
 // 7. Neo-Riemannian Tonnetz walk with a melody on top

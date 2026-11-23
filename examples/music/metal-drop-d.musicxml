@@ -138,16 +138,16 @@
 <note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 <measure number="5">
@@ -362,16 +362,16 @@
 <note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 <measure number="13">
@@ -587,16 +587,16 @@
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 <measure number="21">
 <direction placement="above"><direction-type><rehearsal>Chorus</rehearsal></direction-type></direction>
@@ -1148,16 +1148,16 @@
 <note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 <measure number="45">
@@ -1260,17 +1260,17 @@
 <note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 </part>
 <part id="P2">

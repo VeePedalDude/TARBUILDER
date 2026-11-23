@@ -52,7 +52,8 @@ export function toLilyPond(songIn, options = {}) {
             const start = pos;
             pos += it.ticks;
             const chord = ti === chordTrack && vi === 0 ? chordStarts.get(start) : null;
-            return itemLy(it, track, key, chord);
+            const ly = itemLy(it, track, key, chord);
+            return (it._tuStart ? `\\tuplet ${it.tu.n}/${it.tu.m} { ` : '') + ly + (it._tuStop ? ' }' : '');
           });
           return (head.length ? head.join(' ') + ' ' : '') + notes.join(' ') + ' |';
         })

@@ -107,6 +107,7 @@ function beatText(it, track, key, { chord }) {
   const dur = '';
   const beatFx = [];
   if (it.dots) beatFx.push('d');
+  if (it.tu) beatFx.push(`tu (${it.tu.n} ${it.tu.m})`);
   if (it.kind === 'note' && it.first) {
     const lyric = it.notes.find((n) => n.lyric)?.lyric;
     if (lyric) beatFx.push(`lyrics ${q(lyric)}`);

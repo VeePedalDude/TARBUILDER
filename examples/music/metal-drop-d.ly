@@ -8,7 +8,7 @@
 trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
+    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
     \mark "Riff" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
@@ -16,7 +16,7 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymc>16 bd16 <bd cymr>16 bd16
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
+    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
     \mark "Verse" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
@@ -24,7 +24,7 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymc>16 bd16 <bd cymr>16 bd16
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
+    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
     \mark "Chorus" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
@@ -48,11 +48,11 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymc>16 bd16 <bd cymr>16 bd16
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
+    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
     \mark "Outro" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 | } }
+    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 | } }
 
 trackB = { \clef "bass_8" \key e \minor \time 4/4 { e,,8\4^"Em" e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 |
     d,,8\4^"D" d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 |

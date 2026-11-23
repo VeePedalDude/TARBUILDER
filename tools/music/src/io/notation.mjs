@@ -54,8 +54,20 @@ export function splitSpan(pos, dur, { ppq = 960, beat = ppq, barLen } = {}) {
  *  - tieIn: this item continues the previous item's notes (write ties)
  *  - first: first piece of the original beat (put effects/lyrics/chord names here)
  */
-export function layoutVoice(song, beats, cuts = []) {
-  const cutList = [...new Set(cuts)].sort((a, b) => a - b);
+export function layoutVoice(song, beats, cuts = [], regions = []) {
+  // cuts (chord-name positions) inside a tuplet region only count on leaf boundaries
+  const insideOffLeaf = (c) => regions.some((r) => c > r.start && c < r.start + r.dur && !r.leaves.some((lf) => lf.start === c));
+  const cutList = [...new Set([...cuts.filter((c) => !insideOffLeaf(c)), ...regions.flatMap((r) => [r.start, r.start + r.dur])])].sort((a, b) => a - b);
+  // a span inside a tuplet region is written leaf by leaf with that leaf's tuplet notation
+  const regionOf = (a) => regions.find((r) => a >= r.start && a < r.start + r.dur);
+  const pieces = (a, z, bs, opts) => {
+    const r = regionOf(a);
+    if (!r) return splitSpan(a - bs, z - a, opts);
+    const out = r.leaves.filter((lf) => lf.start >= a && lf.start < z).map((lf) => ({ ticks: lf.ticks, den: lf.den, dots: lf.dots, tu: lf.n !== lf.m ? { n: lf.n, m: lf.m } : null }));
+    const sum = out.reduce((x, o) => x + o.ticks, 0);
+    if (sum !== z - a) throw new Error(`Span ${a}-${z} doesn't fall on tuplet leaves of the region at ${r.start}`);
+    return out;
+  };
   const subspans = (from, to) => {
     const pts = [from, ...cutList.filter((c) => c > from && c < to), to];
     return pts.slice(0, -1).map((p, i) => [p, pts[i + 1]]);
@@ -73,7 +85,7 @@ export function layoutVoice(song, beats, cuts = []) {
     let cursor = bs;
     const pushRest = (from, to) => {
       for (const [a, z] of subspans(from, to)) {
-        for (const piece of splitSpan(a - bs, z - a, { ppq, beat, barLen: bl })) items.push({ kind: 'rest', ...piece });
+        for (const piece of pieces(a, z, bs, { ppq, beat, barLen: bl })) items.push({ kind: 'rest', ...piece });
       }
     };
     // beats that started in an earlier bar and continue into this one
@@ -89,7 +101,7 @@ export function layoutVoice(song, beats, cuts = []) {
       if (from > cursor) pushRest(cursor, from);
       let k = 0;
       for (const [a, z] of subspans(from, to)) {
-        for (const piece of splitSpan(a - bs, z - a, { ppq, beat, barLen: bl })) {
+        for (const piece of pieces(a, z, bs, { ppq, beat, barLen: bl })) {
           items.push({ kind: 'note', ...piece, notes: bt.notes, beat: bt, tieIn: s < from || k > 0, first: s === from && k === 0 });
           k++;
         }
@@ -106,16 +118,26 @@ export function layoutVoice(song, beats, cuts = []) {
 /** voices for any track kind, already laid out into bars */
 export function trackLayout(song, track, cuts = []) {
   let layouts;
-  if (track.kind === 'drums') layouts = [layoutVoice(song, drumBeats(track, song), cuts)];
+  const regions = track.tuplets ?? [];
+  if (track.kind === 'drums') layouts = [layoutVoice(song, drumBeats(track, song), cuts, regions)];
   else {
     const voices = toVoices(track);
-    layouts = voices.length ? voices.map((v, i) => layoutVoice(song, v, i === 0 ? cuts : [])) : [layoutVoice(song, [], cuts)];
+    layouts = voices.length ? voices.map((v, i) => layoutVoice(song, v, i === 0 ? cuts : [], regions)) : [layoutVoice(song, [], cuts, regions)];
   }
   // mark items whose notes continue into the next item (tie start), across barlines too
   for (const bars of layouts) {
     const flat = bars.flat();
     for (let i = 0; i < flat.length - 1; i++) {
       if (flat[i].kind === 'note' && flat[i + 1].kind === 'note' && flat[i + 1].tieIn) flat[i]._tieOut = true;
+    }
+    // tuplet runs: consecutive items in one bar with the same n:m share a bracket
+    const same = (a, b) => a?.tu && b?.tu && a.tu.n === b.tu.n && a.tu.m === b.tu.m;
+    for (const items of bars) {
+      items.forEach((it, i) => {
+        if (!it.tu) return;
+        if (!same(items[i - 1], it)) it._tuStart = true;
+        if (!same(it, items[i + 1])) it._tuStop = true;
+      });
     }
   }
   return layouts;

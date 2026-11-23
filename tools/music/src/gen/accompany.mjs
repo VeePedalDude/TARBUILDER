@@ -50,7 +50,7 @@ export function bassLine(song, track, opts = {}) {
     const fifth = root + 7 > hi ? root - 5 : root + 7;
     const len = c.end - c.start;
     const bar = barAt(song, c.start);
-    const beat = beatTicks(song, bar);
+    const beat = Math.max(beatTicks(song, bar), song.ppq / 2); // x/16 bars: count in eighths
     const eighth = beat === song.ppq * 1.5 ? song.ppq / 2 : beat / 2;
     const next = chords[ci + 1];
     const nextRoot = next ? lowestIn(pc(parseChord(next.symbol).bass ?? parseChord(next.symbol).root), lo) : root;
@@ -162,7 +162,8 @@ export function comp(song, track, opts = {}) {
   for (const c of chords) {
     curEnd = c.end;
     const bar = barAt(song, c.start);
-    const beat = beatTicks(song, bar);
+    // x/16 bars beat in sixteenths; comp patterns count at least in eighths (notes clip at the chord end)
+    const beat = Math.max(beatTicks(song, bar), song.ppq / 2);
     const compound = beat === song.ppq * 1.5;
     const eighth = compound ? song.ppq / 2 : beat / 2;
     const len = c.end - c.start;

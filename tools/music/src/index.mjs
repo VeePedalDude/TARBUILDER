@@ -29,6 +29,8 @@ export * as orchestration from './analysis/orchestration.mjs';
 export * as style from './analysis/style.mjs';
 
 export * as rhythm from './lab/rhythm.mjs';
+export * as tuplets from './tuplets.mjs';
+export * as branching from './lab/branching.mjs';
 export * as neoriemannian from './lab/neoriemannian.mjs';
 export * as pcset from './lab/pcset.mjs';
 export * as tuning from './lab/tuning.mjs';

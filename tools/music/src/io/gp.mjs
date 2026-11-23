@@ -1,6 +1,7 @@
 // Bridge to tools/alphatab (alphaTab 1.9): build .gp from the song IR, and import GP/alphaTex files
 // back into the IR (for analysis, style training, or editing). Needs `npm install` in tools/alphatab.
 import { createSong } from '../ir.mjs';
+import { makeRegion, addRegion, frac, fmul, fadd } from '../tuplets.mjs';
 import { fromMidi, noteName } from '../theory/pitch.mjs';
 
 const TAB_LIB = new URL('../../../alphatab/lib/tab.mjs', import.meta.url);
@@ -121,6 +122,7 @@ export function scoreToSong(score) {
         }
       }
     }
+    importTuplets(song, t, track.staves[0]);
     song.tracks.push(t);
   }
   // chord durations: until the next chord
@@ -128,4 +130,74 @@ export function scoreToSong(score) {
   const end = mb.length ? mb[mb.length - 1].start + mb[mb.length - 1].calculateDuration() : 0;
   song.chords.forEach((c, i) => (c.dur = (song.chords[i + 1]?.start ?? end) - c.start));
   return song;
+}
+
+// Tuplet beats -> tuplet regions, so imported triplets/quintuplets/septuplets keep exact timing.
+// A run of consecutive tuplet beats becomes one region when it starts and ends on the grid;
+// notes inside snap to the region's leaves.
+const DRIFT = 3; // ticks of rounding drift tolerated on import
+
+function importTuplets(song, t, staff) {
+  const grid = song.grid ?? 120;
+  // notes outside tuplets: undo rounding drift left by earlier tuplets in the bar
+  const snapDrift = (x) => (Math.abs(Math.round(x / grid) * grid - x) <= DRIFT ? Math.round(x / grid) * grid : x);
+  const fixDrift = () => {
+    for (const n of t.notes) {
+      if ((t.tuplets ?? []).some((r) => n.start >= r.start - DRIFT && n.start < r.start + r.dur - DRIFT)) continue;
+      const e = snapDrift(n.start + n.dur);
+      n.start = snapDrift(n.start);
+      n.dur = Math.max(grid, e - n.start);
+    }
+  };
+  for (const bar of staff.bars) {
+    for (const voice of bar.voices) {
+      const beats = voice.beats.filter((b) => !b.graceType);
+      const qOf = (b) => {
+        let q = b.duration < 0 ? frac(4 * -b.duration, 1) : frac(4, b.duration);
+        if (b.dots === 1) q = fmul(q, [3, 2]);
+        if (b.dots === 2) q = fmul(q, [7, 4]);
+        return b.tupletNumerator > 0 ? fmul(q, frac(b.tupletDenominator, b.tupletNumerator)) : q;
+      };
+      // beats the grid can't hold: tuplets, and plain values shorter than the grid (64ths, 128ths)
+      const fine = (b) => b.tupletNumerator > 0 || fmul(qOf(b), [song.ppq, grid])[1] !== 1;
+      for (let i = 0; i < beats.length; i++) {
+        if (!fine(beats[i])) continue;
+        let j = i;
+        while (j + 1 < beats.length && fine(beats[j + 1])) j++;
+        const run = beats.slice(i, j + 1);
+        i = j;
+        // alphaTab's integer ticks drift by a tick or two after 7- or 11-tuplets: snap back to the grid
+        const raw = run[0].absolutePlaybackStart;
+        const start = Math.round(raw / grid) * grid;
+        if (Math.abs(start - raw) > DRIFT) continue;
+        // a run of short plain notes may end off the grid: pull in following beats until it lands
+        const leaves = run.map((b) => ({ dur: qOf(b) }));
+        let total = leaves.reduce((a, l) => fadd(a, l.dur), [0, 1]);
+        while (fmul(total, [song.ppq, grid])[1] !== 1 && i + 1 < beats.length) {
+          i++;
+          leaves.push({ dur: qOf(beats[i]) });
+          total = fadd(total, qOf(beats[i]));
+        }
+        let region;
+        try {
+          region = makeRegion(start, leaves, song.ppq);
+          if (region.dur % grid) continue;
+          addRegion(song, t, region);
+        } catch {
+          continue; // crosses a barline or overlaps another voice's region: leave it to quantize()
+        }
+        const bounds = [...region.leaves.map((lf) => lf.start), region.start + region.dur];
+        const snap = (x) => bounds.reduce((best, v) => (Math.abs(v - x) < Math.abs(best - x) ? v : best), bounds[0]);
+        const end = region.start + region.dur;
+        for (const n of t.notes) {
+          if (n.start < region.start - DRIFT || n.start >= end - DRIFT) continue;
+          const s0 = snap(n.start);
+          const e0 = n.start + n.dur <= end + 2 ? snap(n.start + n.dur) : Math.round((n.start + n.dur) / grid) * grid;
+          n.start = s0;
+          n.dur = Math.max(e0 - s0, region.leaves.find((lf) => lf.start === s0)?.ticks ?? grid);
+        }
+      }
+    }
+  }
+  fixDrift();
 }

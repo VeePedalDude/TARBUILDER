@@ -42,6 +42,10 @@ To edit a user's existing GP file: `dump` it to `.atex`, edit the text, `build` 
 - **Notes are `fret.string`**. Durations are a `:N` prefix that sticks until changed (`:4`, `:8`, `:16`),
   or a per-beat suffix `5.3.8`.
 - **Every bar must exactly fill the time signature**, and end with `|`. `check` reports bar sums in quarter-notes.
+- **Tuplets** are a beat effect: `{tu 3}` or any ratio `{tu (7 4)}` (7 in the time of 4). `check` sums bars with
+  exact fractions, so a bar of septuplets is full even though alphaTab's own ticks round to 959.
+  GP holds one tuplet per beat: write nested tuplets as one combined ratio, e.g. five 32nds `{tu (15 8)}`
+  inside a triplet eighth. Change meter with `\ts (7 8)` at the start of a bar.
 - **Every track needs the same number of bars.** Pad with rests (`:1 r`). alphaTab silently pads short
   tracks with empty bars; `check` warns.
 - **Note effects vs beat effects:** in a chord, put note effects on each note:
@@ -64,6 +68,8 @@ To edit a user's existing GP file: `dump` it to `.atex`, edit the text, `build` 
   install. If GP7 rejects a file, try the `--gp8` build and report which one opened.
 - An upstream alphaTab issue reports drum tracks exported by alphaTab being silent under RSE in GP8.
   Use the MIDI sound in GP if drums are silent.
+- Odd tuplet ratios like 15:8 or 21:16 are valid in the GP file and survive the round trip, but whether
+  GP7 draws them cleanly hasn't been checked.
 - `tarb` checks structure and playability, not musical taste. Listen to the `.mid` or open in GP.
 
 ## Tests

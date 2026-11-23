@@ -8,7 +8,23 @@
 trackA = \drummode { \time 4/4 { \mark "Intro" <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 hh8 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
+    <bd hh>8 hh8 hh8 hh8 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
+    \mark "Verse" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
+    \mark "Chorus" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
+    <bd hh>8 hh8 <sn hh>8 hh8 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
     \mark "Verse" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
@@ -25,22 +41,6 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
-    \mark "Verse" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
-    \mark "Chorus" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
-    <bd hh>8 hh8 <sn hh>8 hh8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
     \mark "Bridge" <bd cymc>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
     <bd hh>8 hh8 <sn hh>8 hh8 <bd hh>8 <bd hh>8 <sn hh>8 hh8 |
@@ -60,7 +60,7 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd
     \mark "Outro" <bd cymc>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
     <bd hh>8 hh8 hh8 hh8 <sn hh>8 <bd hh>8 hh8 hh8 |
-    <bd hh>8 hh8 hh8 hh8 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 | } }
+    <bd hh>8 hh8 hh8 hh8 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 | } }
 
 trackB = { \clef "bass_8" \key e \major \time 4/4 { e,,1\4^"E" |
     b,,1\3^"B" |

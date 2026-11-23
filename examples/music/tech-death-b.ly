@@ -8,22 +8,6 @@
 trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
-    \mark "Verse" <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
-    \mark "Chorus" <bd cymc cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
     \mark "Verse" <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
@@ -32,7 +16,7 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymch>16 bd16 bd16 bd16 <bd c
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
-    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
     \mark "Chorus" <bd cymc cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
@@ -41,14 +25,6 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymch>16 bd16 bd16 bd16 <bd c
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
-    \mark "Bridge" <bd cymc>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
-    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
     \mark "Verse" <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
@@ -64,7 +40,31 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymch>16 bd16 bd16 bd16 <bd c
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
     <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
-    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn>16 tomh16 <bd sn>16 tommh16 <bd sn>16 tomml16 <bd sn>16 tomfh16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
+    \mark "Bridge" <bd cymc>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 |
+    <bd cymr>8 <sn cymr>8 <bd cymr>8 <sn cymr>8 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
+    \mark "Verse" <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
+    <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
+    \mark "Chorus" <bd cymc cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 |
+    <bd cymch>16 bd16 bd16 bd16 <bd cymch>16 bd16 bd16 bd16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
     \mark "Outro" <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |
     <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 <bd cymc>16 sn16 |

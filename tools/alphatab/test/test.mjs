@@ -60,5 +60,20 @@ for (const f of fs.readdirSync(examples).filter((f) => f.endsWith('.atex'))) {
   t('piano staff after GP export: still clean', check(back).length === 0, check(back).map((d) => d.message).join(' | '));
 }
 
+// 5. Tuplets are measured exactly: a bar of septuplets is full, not 3.999 beats; nested (15:8) too.
+{
+  const tex = '\\track ("G" "G") { instrument 30 }\n\\staff {tabs score}\n\\tuning (E4 B3 G3 D3 A2 E2)\n\\ts (4 4)\n' +
+    ':16 ' + Array(28).fill('0.6{tu (7 4)}').join(' ') + ' |\n' +
+    ':8 0.6{tu (3 2)} :32 ' + Array(5).fill('0.6{tu (15 8)}').join(' ') + ' :8 0.6{tu (3 2)} :4 0.6 0.6 0.6 |\n' +
+    ':16 ' + Array(6).fill('0.6{tu (7 4)}').join(' ') + ' :4 0.6 0.6 0.6';
+  const { score, diagnostics } = parseTex(tex);
+  const issues = [...errs(diagnostics), ...check(score)];
+  const bad = issues.filter((d) => d.level !== 'hint');
+  t('tuplets: full septuplet and nested 15:8 bars are clean', bad.filter((d) => !/bar 3/.test(d.where)).length === 0, bad.map((d) => d.where + ' ' + d.message).join(' | '));
+  t('tuplets: a bar one septuplet short is still caught', bad.some((d) => /bar 3/.test(d.where) && /short/.test(d.message)));
+  const back = loadFileFromBytes(toGp7(score));
+  t('tuplets: survive GP7 export', check(back).filter((d) => d.level === 'error').length === 0 && back.tracks[0].staves[0].bars[0].voices[0].beats[0].tupletNumerator === 7);
+}
+
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
