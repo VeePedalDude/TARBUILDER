@@ -25,9 +25,11 @@ const song = tb.arrange({
 });
 ```
 
-Genres: rock pop punk metal blues jazz funk folk lofi reggae ballad (`tb list genres`). Each sets tempo range, keys,
-meter, groove, form, progressions, comp and bass styles. Energy per section (0-1) thins or fills drums, comping and melody.
-Repeated sections reuse the same melody. Songs end on the tonic when the last section is an Outro/Ending.
+Genres: rock pop punk metal metalcore deathcore tech-death blues jazz funk folk lofi reggae ballad (`tb list genres`). Each sets tempo range, keys,
+meter, groove, form, progressions, comp and bass styles, plus optional per-section grooves/comps (`sectionGrooves`, `sectionComps`). Energy per section (0-1) thins or fills drums, comping and melody.
+Repeated sections reuse the same melody. In metal/metalcore/deathcore a `Breakdown` section is written by `breakdownRiff`
+(tonic chord, kick locked to the chugs, bass doubling, the last breakdown in deathcore drops to quarter time); deathcore and
+tech-death have no clean lead. Songs end on the tonic when the last section is an Outro/Ending.
 
 ## Parts, one at a time
 
@@ -43,8 +45,9 @@ Repeated sections reuse the same melody. Songs end on the tonic when the last se
 | bass | `tb.accompany.bassLine(song, track, { style })` | root eighths root-fifth octaves walking syncopated arpeggio |
 | comping | `comp(song, track, { style, pattern })` | strum power gallop arpeggio skank pad block jazz shuffle funk; strum patterns in `STRUMS` |
 | guitar shapes | `tb.voicing.chordShapes('F#m7', { tuning })` -> diagrams like `x32010` | `powerChord(midi)` |
-| drums | `tb.drums.writeGroove(song, track, fromBar, toBar, { groove, energy, fillEvery, seed })` | 22 grooves incl. 12/8, 6/8, 7/8, 5/4 |
+| drums | `tb.drums.writeGroove(song, track, fromBar, toBar, { groove, energy, fillEvery, seed })` | 26 grooves incl. 12/8, 6/8, 7/8, 5/4; metal feels `halftime`, `quarter time` (2-bar), `skank`, `blast`, `gravity blast`, `double kick` |
 | riffs | `tb.riffs.pedalRiff`, `powerRiff`, `legatoRun`, `pentatonicLick` | pre-fingered |
+| breakdown | `tb.riffs.breakdownRiff(song, gtr, { from, to, drums, feel: 'half'|'quarter', escalate, seed })` | uneven 2-5 sixteenth groups, rests kept, kick = guitar onsets; tune `BREAKDOWN` |
 | form | `tb.form.planForm('pop')` | `FORMS`, `GENRES` |
 | motif | `tb.motif.invert / retrograde / augment / sequence / transposeDiatonic / ornament` | |
 | lyrics | `tb.lyrics.syllables('beautiful')`, `scan(text)` (stress), `fitLyrics(track, text)`, `rhythmForLine(text)`, `rhymes(a,b)` | |

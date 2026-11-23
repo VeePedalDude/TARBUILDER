@@ -1,6 +1,7 @@
 // Drum grooves and fills. Patterns are step strings, one character per step:
 //   x = hit, X = accent, g = ghost (quiet), o = open hi-hat (on the hat lane), . = rest
 // Steps per bar are set per groove (16 for 4/4 sixteenths, 12 for 12/8, etc.).
+// A groove may span several bars (`bars: 2`): each lane then holds steps * bars characters.
 import { DRUM, barStart, barLength, addTrack } from '../ir.mjs';
 import { asRng } from '../rng.mjs';
 
@@ -26,6 +27,11 @@ export const GROOVES = {
   waltz: { meter: [3, 4], steps: 6, lanes: { hh: 'x.x.x.', kick: 'x.....', snare: '..x.x.' } },
   '7/8': { meter: [7, 8], steps: 7, lanes: { hh: 'xxxxxxx', kick: 'x..x...', snare: '..x..x.' } },
   '5/4': { meter: [5, 4], steps: 10, lanes: { hh: 'x.x.x.x.x.', kick: 'x.....x...', snare: '....x...x.' } },
+  // metal feels after Garza 2021 (MTO 27.1): half time = snare on beat 3, quarter time = one snare per 2 bars
+  'quarter time': { meter: [4, 4], steps: 16, bars: 2, lanes: { china: 'x.......x.......x.......x.......', kick: 'x...............x...............', snare: '........................x.......' } },
+  skank: { meter: [4, 4], steps: 16, lanes: { ride: 'x.x.x.x.x.x.x.x.', kick: 'x...x...x...x...', snare: '..x...x...x...x.' } },
+  'gravity blast': { meter: [4, 4], steps: 16, lanes: { crash: 'x...x...x...x...', kick: 'x...x...x...x...', snare: 'xxxxxxxxxxxxxxxx' } },
+  'double kick': { meter: [4, 4], steps: 16, lanes: { china: 'x...x...x...x...', kick: 'xxxxxxxxxxxxxxxx', snare: '........x.......' } },
   'motorik': { meter: [4, 4], steps: 8, lanes: { hh: 'xxxxxxxx', kick: 'x.x.x.x.', snare: '..x...x.' } },
 };
 
@@ -53,10 +59,12 @@ export function writeGroove(song, track, from, to, opts = {}) {
     if (!Number.isInteger(step) || step % (song.grid ?? 120)) throw new Error(`Groove steps (${g.steps}) don't divide bar ${b + 1} (${bl} ticks)`);
     const isFillBar = opts.fillEvery && (b - from + 1) % opts.fillEvery === 0 && b < to - 0;
     const fillFrom = isFillBar ? Math.floor(g.steps / 2) : g.steps;
+    const span = g.bars ?? 1;
+    const offset = ((b - from) % span) * g.steps;
     for (const [lane, pat] of Object.entries(g.lanes)) {
-      if (pat.length !== g.steps) throw new Error(`Groove lane "${lane}" has ${pat.length} steps, expected ${g.steps}`);
+      if (pat.length !== g.steps * span) throw new Error(`Groove lane "${lane}" has ${pat.length} steps, expected ${g.steps * span}`);
       for (let i = 0; i < Math.min(g.steps, fillFrom); i++) {
-        const ch = pat[i];
+        const ch = pat[offset + i];
         if (ch === '.') continue;
         if (ch === 'g' && energy < 0.4) continue;
         if ((lane === 'hh' || lane === 'ride') && energy < 0.2 && i % 2) continue;

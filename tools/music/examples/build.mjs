@@ -22,6 +22,9 @@ async function save(name, song, formats) {
 await save('rock-song', tb.arrange({ genre: 'rock', seed: 7, title: 'Rock Sketch' }));
 await save('blues-shuffle', tb.arrange({ genre: 'blues', seed: 3, title: 'Shuffle in E', key: 'E major' }));
 await save('metal-drop-d', tb.arrange({ genre: 'metal', seed: 5, title: 'Drop D Gallop' }));
+await save('metalcore-drop-c', tb.arrange({ genre: 'metalcore', seed: 4, title: 'Drop C Metalcore' }));
+await save('deathcore-drop-a', tb.arrange({ genre: 'deathcore', seed: 4, title: 'Drop A Deathcore' }));
+await save('tech-death-b', tb.arrange({ genre: 'tech-death', seed: 4, title: 'B Standard Tech-Death' }));
 await save('folk-ballad-68', tb.arrange({ genre: 'ballad', seed: 2, title: '6/8 Ballad' }));
 
 // 2. Jazz: ii-V-I changes, Coltrane reharm, guide tones and a bebop line

@@ -100,10 +100,17 @@ export const TUNINGS = {
   'open d': ['D4', 'A3', 'F#3', 'D3', 'A2', 'D2'],
   'open e': ['E4', 'B3', 'G#3', 'E3', 'B2', 'E2'],
   dadgad: ['D4', 'A3', 'G3', 'D3', 'A2', 'D2'],
+  'b standard': ['B3', 'F#3', 'D3', 'A2', 'E2', 'B1'],
+  'drop a': ['B3', 'F#3', 'D3', 'A2', 'E2', 'A1'],
   '7 string': ['E4', 'B3', 'G3', 'D3', 'A2', 'E2', 'B1'],
+  '7 string drop a': ['E4', 'B3', 'G3', 'D3', 'A2', 'E2', 'A1'],
+  '7 string drop g': ['D4', 'A3', 'F3', 'C3', 'G2', 'D2', 'G1'],
+  '8 string': ['E4', 'B3', 'G3', 'D3', 'A2', 'E2', 'B1', 'F#1'],
   bass: ['G2', 'D2', 'A1', 'E1'],
   'bass drop d': ['G2', 'D2', 'A1', 'D1'],
+  'bass drop c': ['F2', 'C2', 'G1', 'C1'],
   'bass 5': ['G2', 'D2', 'A1', 'E1', 'B0'],
+  'bass 5 drop a': ['G2', 'D2', 'A1', 'E1', 'A0'],
   ukulele: ['A4', 'E4', 'C4', 'G4'],
 };
 

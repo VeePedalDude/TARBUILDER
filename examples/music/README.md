@@ -5,6 +5,9 @@ Built by `node tools/music/examples/build.mjs`. Every .gp passed `tarb` checks; 
 - rock-song: 4 tracks, 56 bars, 0 warnings -> rock-song.json, rock-song.atex, rock-song.gp, rock-song.mid, rock-song.musicxml, rock-song.ly
 - blues-shuffle: 4 tracks, 42 bars, 0 warnings -> blues-shuffle.json, blues-shuffle.atex, blues-shuffle.gp, blues-shuffle.mid, blues-shuffle.musicxml, blues-shuffle.ly
 - metal-drop-d: 4 tracks, 48 bars, 0 warnings -> metal-drop-d.json, metal-drop-d.atex, metal-drop-d.gp, metal-drop-d.mid, metal-drop-d.musicxml, metal-drop-d.ly
+- metalcore-drop-c: 4 tracks, 72 bars, 0 warnings -> metalcore-drop-c.json, metalcore-drop-c.atex, metalcore-drop-c.gp, metalcore-drop-c.mid, metalcore-drop-c.musicxml, metalcore-drop-c.ly
+- deathcore-drop-a: 3 tracks, 60 bars, 0 warnings -> deathcore-drop-a.json, deathcore-drop-a.atex, deathcore-drop-a.gp, deathcore-drop-a.mid, deathcore-drop-a.musicxml, deathcore-drop-a.ly
+- tech-death-b: 3 tracks, 64 bars, 0 warnings -> tech-death-b.json, tech-death-b.atex, tech-death-b.gp, tech-death-b.mid, tech-death-b.musicxml, tech-death-b.ly
 - folk-ballad-68: 4 tracks, 56 bars, 0 warnings -> folk-ballad-68.json, folk-ballad-68.atex, folk-ballad-68.gp, folk-ballad-68.mid, folk-ballad-68.musicxml, folk-ballad-68.ly
 - jazz-coltrane-bebop: 4 tracks, 8 bars, 0 warnings -> jazz-coltrane-bebop.json, jazz-coltrane-bebop.atex, jazz-coltrane-bebop.gp, jazz-coltrane-bebop.mid, jazz-coltrane-bebop.musicxml, jazz-coltrane-bebop.ly
 - chorale-satb: 4 tracks, 9 bars, 0 warnings -> chorale-satb.json, chorale-satb.atex, chorale-satb.gp, chorale-satb.mid, chorale-satb.musicxml, chorale-satb.ly

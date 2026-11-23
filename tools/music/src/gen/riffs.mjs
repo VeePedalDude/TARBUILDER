@@ -2,7 +2,7 @@
 import { makeScale } from '../theory/scale.mjs';
 import { parseKey } from '../theory/key.mjs';
 import { midi, pc, mod } from '../theory/pitch.mjs';
-import { barStart, barLength, beatTicks } from '../ir.mjs';
+import { barStart, barLength, beatTicks, DRUM } from '../ir.mjs';
 import { asRng } from '../rng.mjs';
 
 const openMidi = (track) => track.tuning.map((t) => midi(t));
@@ -189,3 +189,129 @@ export function pentatonicLick(song, track, opts = {}) {
 }
 
 export { pc };
+
+// ---------------------------------------------------------------------------
+// Breakdowns (metalcore / deathcore). Definition after Garza 2021 (MTO 27.1): palm-muted,
+// low-register, uneven rhythms in unison with the kick, over a half-time feel. Rests are part of
+// the riff; a repeat escalates (more kick, or a drop to quarter time).
+export const BREAKDOWN = {
+  steps: 16,             // 16th grid per 4/4 bar
+  hits: [4, 6],          // guitar = kick onsets per bar (inclusive range)
+  group: [2, 5],         // a hit starts every 2-5 sixteenths (uneven groupings like 3+3+4+2+4)
+  maxHold: 2,            // longest chug, in 16ths; anything longer becomes rest
+  minRests: 2,           // 16th steps per bar with nothing sounding, at least
+  stabChance: 0.3,       // chance a non-downbeat hit is a chord stab instead of a chug
+  stabs: ['power', 'octave', 'b2', 'tritone'],
+  escalateHits: 2,       // extra kick/guitar hits on the second pass
+  cymbal: 'china',
+  vel: { chug: 100, stab: 118, kick: 112, snare: 120, cymbal: 105 },
+};
+
+/**
+ * Breakdown riff on the lowest string (open when the key's tonic matches it), kick locked to the guitar.
+ * opts: { from, to (bars), drums (drum track to write kick/snare/cymbal into), feel: 'half'|'quarter',
+ *         escalate (true: the second half of the section is denser), key, seed|rng }
+ * Returns { pattern, patterns, notes, drums } — pattern strings use x = stab, m = chug, - = hold, . = rest.
+ */
+export function breakdownRiff(song, track, opts = {}) {
+  const C = { ...BREAKDOWN, ...opts.params };
+  const rng = asRng(opts.rng ?? opts.seed);
+  const key = parseKey(opts.key ?? song.key ?? 'E minor');
+  const from = opts.from ?? 0;
+  const to = opts.to ?? song.bars;
+  const feel = opts.feel ?? 'half';
+  const open = openMidi(track);
+  const low = open.length - 1; // index of the lowest string
+  let root = open[low];
+  while (mod(root, 12) !== key.tonicPc) root++;
+  const rootPos = { string: low + 1, fret: root - open[low] };
+
+  const stabNotes = (type) => {
+    const extra = { power: [7, low - 1], octave: [12, low - 2], tritone: [6, low - 1], b2: [1, low] }[type];
+    const notes = [{ ...rootPos, pitch: root }];
+    if (!extra) return notes;
+    const [iv, s] = extra;
+    if (s === low) return [{ string: low + 1, fret: rootPos.fret + iv, pitch: root + iv }];
+    const fret = root + iv - open[s];
+    if (s >= 0 && fret >= 0 && fret <= 12) notes.push({ string: s + 1, fret, pitch: root + iv });
+    return notes;
+  };
+
+  // one bar of rhythm: split the bar into uneven groups (2-5 sixteenths, e.g. 3+3+4+2+4),
+  // each group starts with a hit, so the downbeat is always struck and the accents fall off the grid
+  const makePattern = (nHits) => {
+    const n = Math.max(1, Math.min(nHits, Math.floor(C.steps / C.group[0])));
+    const groups = Array(n).fill(C.group[0]);
+    let left = C.steps - n * C.group[0];
+    while (left > 0) {
+      const room = groups.map((g, i) => (g < C.group[1] ? i : -1)).filter((i) => i >= 0);
+      if (!room.length) break;
+      groups[rng.pick(room)]++;
+      left--;
+    }
+    if (left > 0) groups[groups.length - 1] += left;
+    const cells = [];
+    groups.forEach((g, gi) => {
+      cells.push(gi === 0 || rng.chance(C.stabChance) ? 'x' : 'm');
+      let h = 1;
+      for (; h < Math.min(C.maxHold, g) && rng.chance(0.5); h++) cells.push('-');
+      for (; h < g; h++) cells.push('.');
+    });
+    // enforce written rests
+    let rests = cells.filter((c) => c === '.').length;
+    for (let i = C.steps - 1; i > 0 && rests < C.minRests; i--) if (cells[i] === '-') { cells[i] = '.'; rests++; }
+    return cells.join('');
+  };
+  const escalated = (pat) => {
+    const cells = pat.split('');
+    const free = [...Array(C.steps).keys()].filter((i) => cells[i] === '.' || cells[i] === '-');
+    let added = 0;
+    for (const i of free.reverse()) { // fill from the end of the bar: the classic double-kick pickup
+      if (added >= C.escalateHits) break;
+      if (cells.filter((c) => c === '.').length <= C.minRests) break;
+      cells[i] = 'm';
+      added++;
+    }
+    return cells.join('');
+  };
+
+  const nHits = rng.int(C.hits[0], C.hits[1]);
+  const base = makePattern(nHits);
+  const second = opts.escalate === false ? base : escalated(base);
+  const half = from + Math.ceil((to - from) / 2);
+  const notes = [];
+  const drums = [];
+  const patterns = [];
+  for (let b = from; b < to; b++) {
+    const bs = barStart(song, b);
+    const step = barLength(song, b) / C.steps;
+    const pat = b >= half ? second : base;
+    patterns.push(pat);
+    for (let i = 0; i < C.steps; i++) {
+      const ch = pat[i];
+      if (ch !== 'x' && ch !== 'm') continue;
+      let hold = 1;
+      while (pat[i + hold] === '-') hold++;
+      const t = bs + i * step;
+      if (ch === 'x') {
+        const type = i === 0 ? 'power' : rng.pick(C.stabs);
+        for (const n of stabNotes(type)) notes.push({ start: t, dur: step * hold, vel: C.vel.stab, ...n });
+      } else {
+        notes.push({ start: t, dur: step * hold, vel: C.vel.chug, fx: { pm: true }, ...rootPos, pitch: root });
+      }
+      drums.push({ start: t, dur: step, pitch: DRUM.kick, vel: C.vel.kick });
+    }
+    // snare: half time = beat 3 of every bar; quarter time = beat 3 of every second bar
+    const snareHere = feel === 'quarter' ? (b - from) % 2 === 1 : true;
+    if (snareHere) drums.push({ start: bs + (C.steps / 2) * step, dur: step, pitch: DRUM.snare, vel: C.vel.snare });
+    const cymEvery = feel === 'quarter' ? C.steps / 2 : C.steps / 4;
+    for (let i = 0; i < C.steps; i += cymEvery) drums.push({ start: bs + i * step, dur: step, pitch: DRUM[C.cymbal] ?? DRUM.china, vel: C.vel.cymbal });
+  }
+  track.notes.push(...notes);
+  if (opts.drums) {
+    const ds = barStart(song, from);
+    const de = barStart(song, to - 1) + barLength(song, to - 1);
+    opts.drums.notes = opts.drums.notes.filter((n) => n.start < ds || n.start >= de).concat(drums).sort((a, b) => a.start - b.start || a.pitch - b.pitch);
+  }
+  return { pattern: base, patterns, notes, drums };
+}

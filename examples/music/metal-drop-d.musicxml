@@ -13,6 +13,7 @@
 <score-instrument id="P1-X49"><instrument-name>Crash Cymbal 1</instrument-name></score-instrument>
 <score-instrument id="P1-X50"><instrument-name>High Tom</instrument-name></score-instrument>
 <score-instrument id="P1-X51"><instrument-name>Ride Cymbal 1</instrument-name></score-instrument>
+<score-instrument id="P1-X52"><instrument-name>Chinese Cymbal</instrument-name></score-instrument>
 <midi-instrument id="P1-X36"><midi-channel>10</midi-channel><midi-unpitched>37</midi-unpitched></midi-instrument>
 <midi-instrument id="P1-X38"><midi-channel>10</midi-channel><midi-unpitched>39</midi-unpitched></midi-instrument>
 <midi-instrument id="P1-X43"><midi-channel>10</midi-channel><midi-unpitched>44</midi-unpitched></midi-instrument>
@@ -21,6 +22,7 @@
 <midi-instrument id="P1-X49"><midi-channel>10</midi-channel><midi-unpitched>50</midi-unpitched></midi-instrument>
 <midi-instrument id="P1-X50"><midi-channel>10</midi-channel><midi-unpitched>51</midi-unpitched></midi-instrument>
 <midi-instrument id="P1-X51"><midi-channel>10</midi-channel><midi-unpitched>52</midi-unpitched></midi-instrument>
+<midi-instrument id="P1-X52"><midi-channel>10</midi-channel><midi-unpitched>53</midi-unpitched></midi-instrument>
 </score-part>
 <score-part id="P2"><part-name>Bass</part-name><score-instrument id="P2-I1"><instrument-name>Bass</instrument-name></score-instrument>
 <midi-instrument id="P2-I1"><midi-channel>2</midi-channel><midi-program>34</midi-program></midi-instrument></score-part>
@@ -822,227 +824,117 @@
 </measure>
 <measure number="29">
 <direction placement="above"><direction-type><rehearsal>Breakdown</rehearsal></direction-type></direction>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><chord/><unpitched><display-step>A</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X49"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>A</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X49"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>480</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>480</duration><instrument id="P1-X36"/><voice>1</voice><type>eighth</type></note>
 </measure>
 <measure number="30">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>480</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>480</duration><instrument id="P1-X36"/><voice>1</voice><type>eighth</type></note>
 </measure>
 <measure number="31">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>480</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>480</duration><instrument id="P1-X36"/><voice>1</voice><type>eighth</type></note>
 </measure>
 <measure number="32">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>480</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>480</duration><instrument id="P1-X36"/><voice>1</voice><type>eighth</type></note>
 </measure>
 <measure number="33">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 </measure>
 <measure number="34">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 </measure>
 <measure number="35">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 </measure>
 <measure number="36">
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>960</duration><instrument id="P1-X36"/><voice>1</voice><type>quarter</type></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>960</duration><instrument id="P1-X52"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><tie type="start"/><instrument id="P1-X36"/><voice>1</voice><type>16th</type><notations><tied type="start"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X38"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem></note>
+<note><chord/><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>720</duration><instrument id="P1-X52"/><voice>1</voice><type>eighth</type><dot/><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X38"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X51"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
+<note><unpitched><display-step>B</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X52"/><voice>1</voice><type>16th</type><stem>up</stem><notehead>x</notehead></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X50"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X48"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>D</display-step><display-octave>5</display-octave></unpitched><duration>240</duration><instrument id="P1-X47"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X36"/><voice>1</voice><type>16th</type></note>
-<note><chord/><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
-<note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>240</duration><instrument id="P1-X43"/><voice>1</voice><type>16th</type><stem>up</stem></note>
 </measure>
 <measure number="37">
 <direction placement="above"><direction-type><rehearsal>Chorus</rehearsal></direction-type></direction>
@@ -1951,164 +1843,212 @@
 <note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="29">
-<harmony><root><root-step>A</root-step></root><kind text="m">minor</kind></harmony>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="30">
-<harmony><root><root-step>D</root-step></root><kind text="">major</kind></harmony>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="31">
-<harmony><root><root-step>A</root-step></root><kind text="m">minor</kind></harmony>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="32">
-<harmony><root><root-step>B</root-step></root><kind text="7">dominant</kind></harmony>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="33">
-<harmony><root><root-step>A</root-step></root><kind text="m">minor</kind></harmony>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="34">
-<harmony><root><root-step>D</root-step></root><kind text="">major</kind></harmony>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="35">
-<harmony><root><root-step>A</root-step></root><kind text="m">minor</kind></harmony>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="36">
-<harmony><root><root-step>B</root-step></root><kind text="7">dominant</kind></harmony>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>1</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="37">
 <harmony><root><root-step>E</root-step></root><kind text="m">minor</kind></harmony>
@@ -3229,252 +3169,240 @@
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="29">
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="30">
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><chord/><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="31">
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="32">
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>4</fret></technical></notations></note>
-<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>4</fret></technical></notations></note>
-<note><chord/><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>3</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
 </measure>
 <measure number="33">
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="34">
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>0</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><chord/><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>4</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="35">
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>2</fret></technical></notations></note>
-<note><chord/><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>0</fret></technical></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>5</string><fret>1</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>5</string><fret>1</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="36">
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><chord/><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><rest/><duration>720</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><notations><tied type="stop"/></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <backup><duration>3840</duration></backup>
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>3</string><fret>4</fret></technical></notations></note>
-<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>4</string><fret>4</fret></technical></notations></note>
-<note><chord/><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>5</string><fret>2</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>480</duration><voice>5</voice><type>eighth</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><rest/><duration>720</duration><voice>5</voice><type>eighth</type><dot/><staff>2</staff></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>5</string><fret>1</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="start"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="start"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>5</string><fret>1</fret></technical></notations></note>
+<note><chord/><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><tie type="stop"/><voice>5</voice><type>16th</type><staff>2</staff><notations><tied type="stop"/><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>240</duration><voice>5</voice><type>16th</type><staff>2</staff><notations><technical><string>6</string><fret>2</fret></technical></notations></note>
 </measure>
 <measure number="37">
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>480</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>

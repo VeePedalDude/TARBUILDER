@@ -33,14 +33,14 @@ trackA = \drummode { \time 4/4 { \mark "Intro" <bd cymc>16 bd16 <bd cymr>16 bd16
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 <bd sn>16 sn16 |
-    \mark "Breakdown" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
-    <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd tomh>16 tomh16 <bd tommh>16 tommh16 <bd tomml>16 tomml16 <bd tomfh>16 tomfh16 |
+    \mark "Breakdown" <bd cymch cymc>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch8 bd8 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch8 bd8 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch8 bd8 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch8 bd8 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch16 bd16 bd16 bd16 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch16 bd16 bd16 bd16 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch16 bd16 bd16 bd16 |
+    <bd cymch>4 cymch16 bd16 r16 bd16 <sn cymch>8. bd16 cymch16 bd16 bd16 bd16 |
     \mark "Chorus" <bd cymc>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
     <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd cymr>16 bd16 <bd sn cymr>16 bd16 <bd cymr>16 bd16 |
@@ -82,14 +82,14 @@ trackB = { \clef "bass_8" \key e \minor \time 4/4 { e,,8\4^"Em" e,,8\4 e,,8\4 e,
     c,8\3^"C" c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 |
     d,,8\4^"D" d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 |
     e,,8\4^"Em" e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 |
-    a,,8\3^"Am" a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 |
-    d,,8\4^"D" d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 |
-    a,,8\3^"Am" a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 |
-    b,,8\3^"B7" b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 |
-    a,,8\3^"Am" a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 |
-    d,,8\4^"D" d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 |
-    a,,8\3^"Am" a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 a,,8\3 |
-    b,,8\3^"B7" b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 b,,8\3 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 r16 e,,16\4 r16 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 r16 e,,16\4 r16 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 r16 e,,16\4 r16 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 r16 e,,16\4 r16 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 e,,16\4 e,,16\4 e,,16\4 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 e,,16\4 e,,16\4 e,,16\4 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 e,,16\4 e,,16\4 e,,16\4 |
+    e,,8\4^"Em" r8. e,,16\4 r16 e,,16\4 r8. e,,16\4~ e,,16\4 e,,16\4 e,,16\4 e,,16\4 |
     e,,8\4^"Em" e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 e,,8\4 |
     c,8\3^"C" c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 c,8\3 |
     d,,8\4^"D" d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 d,,8\4 |
@@ -131,14 +131,14 @@ trackC = { \clef "treble_8" \key e \minor \time 4/4 { <e\4 b,\5 e,\6>8 e,16\6 e,
     <c'\3 g\4 c\5>8 c16\5 c16\5 c8\5 c16\5 c16\5 c8\5 c16\5 c16\5 c8\5 c16\5 c16\5 |
     <d\4 a,\5 d,\6>8 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 |
     <e\4 b,\5 e,\6>8 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 |
-    <a\3 e\4 a,\5>8 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 |
-    <d\4 a,\5 d,\6>8 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 |
-    <a\3 e\4 a,\5>8 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 |
-    <b\3 fis\4 b,\5>8 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 |
-    <a\3 e\4 a,\5>8 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 |
-    <d\4 a,\5 d,\6>8 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 |
-    <a\3 e\4 a,\5>8 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 a,8\5 a,16\5 a,16\5 |
-    <b\3 fis\4 b,\5>8 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 b,8\5 b,16\5 b,16\5 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. f,16\6~ f,16\6 r16 e,16\6 r16 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. <e\4 e,\6>16~ <e\4 e,\6>16 r16 e,16\6 r16 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. f,16\6~ f,16\6 r16 e,16\6 r16 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. f,16\6~ f,16\6 r16 e,16\6 r16 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. <e\4 e,\6>16~ <e\4 e,\6>16 e,16\6 e,16\6 e,16\6 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. <e\4 e,\6>16~ <e\4 e,\6>16 e,16\6 e,16\6 e,16\6 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. <ais,\5 e,\6>16~ <ais,\5 e,\6>16 e,16\6 e,16\6 e,16\6 |
+    <b,\5 e,\6>8 r8. e,16\6 r16 e,16\6 r8. <ais,\5 e,\6>16~ <ais,\5 e,\6>16 e,16\6 e,16\6 e,16\6 |
     <e\4 b,\5 e,\6>8 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 e,8\6 e,16\6 e,16\6 |
     <c'\3 g\4 c\5>8 c16\5 c16\5 c8\5 c16\5 c16\5 c8\5 c16\5 c16\5 c8\5 c16\5 c16\5 |
     <d\4 a,\5 d,\6>8 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 d,8\6 d,16\6 d,16\6 |

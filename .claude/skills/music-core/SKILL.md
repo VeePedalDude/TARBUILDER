@@ -34,6 +34,9 @@ song.meterChanges.push({ bar: 4, num: 7, den: 8 });       // optional
 
 - `kind: 'fretted'` gets fingered automatically (string/fret, playable 5-fret span) unless notes set `string`/`fret`.
   String 1 = highest string, like Guitar Pro.
+- Tuning presets (`tb.TUNINGS`, or pass an array of note names): standard, drop d, eb standard, d standard, drop c,
+  drop b, b standard, drop a, open g/d/e, dadgad, 7 string, 7 string drop a, 7 string drop g, 8 string, bass,
+  bass drop d, bass drop c, bass 5, bass 5 drop a, ukulele.
 - Grid: starts and durations must be multiples of 120 ticks (1/32). `tb.quantize(song, 240)` snaps imported material.
 - `tb.validateSong(song)` lists errors (off-grid, past the end, out of tuning range, same pitch overlapping itself)
   and warnings. Exporters refuse invalid songs.

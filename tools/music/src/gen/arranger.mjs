@@ -8,6 +8,14 @@ import { PROGRESSIONS, realize, generateProgression } from './progressions.mjs';
 import { writeGroove, GROOVES } from './drums.mjs';
 import { bassLine, comp } from './accompany.mjs';
 import { generateMelody } from './melody.mjs';
+import { breakdownRiff } from './riffs.mjs';
+import { midi, mod } from '../theory/pitch.mjs';
+
+// genres whose bass and rhythm parts are palm-muted
+const PALM_MUTED = /metal|core|death|punk/;
+
+/** per-section override: first key that the section name starts with (case-insensitive) */
+const bySection = (map, name) => (map ? Object.entries(map).find(([k]) => name.toLowerCase().startsWith(k))?.[1] : undefined);
 
 /**
  * spec: {
@@ -45,6 +53,8 @@ export function arrange(spec = {}) {
   const sectionProg = (name, barsN) => {
     if (spec.progressions?.[name]) return realize(spec.progressions[name], k);
     const lower = name.toLowerCase();
+    // breakdowns sit on the tonic: the open low string
+    if (/breakdown/.test(lower)) return realize([k.mode === 'minor' ? 'i' : 'I'], k);
     if (/verse|riff|head|a$|loop|solo|drop/.test(lower) && pool.length) return realize(pool[0], k);
     if (/chorus|b$|drop/.test(lower) && pool.length > 1) return realize(pool[1], k);
     if (/pre/.test(lower)) return generateProgression({ key: k, length: 4, complexity, cadence: 'half', rng: rng.fork(name) });
@@ -84,21 +94,24 @@ export function arrange(spec = {}) {
     lastChord.roman = k.mode === 'minor' ? 'i' : 'I';
   }
 
-  const parts = { drums: true, bass: true, guitar: true, lead: true, keys: false, ...spec.parts };
+  const parts = { drums: true, bass: true, guitar: true, lead: genre.lead !== false, keys: false, ...spec.parts };
+  const isBreakdown = (s) => Boolean(genre.breakdown) && /breakdown/i.test(s.name);
+  let drumTrack = null;
 
   // ---- drums ----
   if (parts.drums) {
     const d = addTrack(song, { name: 'Drums', kind: 'drums' });
+    drumTrack = d;
+    const fits = (n) => GROOVES[n] && GROOVES[n].meter[0] === meter[0] && GROOVES[n].meter[1] === meter[1];
     let groove = spec.groove ?? genre.groove;
-    const g = GROOVES[groove];
-    if (!g || g.meter[0] !== meter[0] || g.meter[1] !== meter[1]) {
-      groove = Object.keys(GROOVES).find((n) => GROOVES[n].meter[0] === meter[0] && GROOVES[n].meter[1] === meter[1]) ?? null;
-    }
+    if (!fits(groove)) groove = Object.keys(GROOVES).find(fits) ?? null;
     if (groove) {
       plan.forEach((s, i) => {
+        const own = spec.groove ? undefined : bySection(genre.sectionGrooves, s.name);
+        const sg = own && fits(own) ? own : groove;
         const half = /verse|intro|outro|break/i.test(s.name) && s.energy < 0.6 && spec.genre !== 'punk';
         writeGroove(song, d, s.bar, s.bar + s.bars, {
-          groove: half && GROOVES.halftime.meter.join() === meter.join() && s.energy < 0.45 ? 'halftime' : groove,
+          groove: half && GROOVES.halftime.meter.join() === meter.join() && s.energy < 0.45 ? 'halftime' : sg,
           energy: s.energy, rng: rng.fork('drums' + i), fillEvery: s.bars >= 4 ? s.bars : 0, crashOnFirst: i > 0 || s.energy > 0.6,
         });
       });
@@ -107,12 +120,12 @@ export function arrange(spec = {}) {
 
   // ---- bass ----
   if (parts.bass) {
-    const tuning = spec.bass?.tuning ?? (genre.tuning === 'drop d' ? 'bass drop d' : 'bass');
+    const tuning = spec.bass?.tuning ?? genre.bassTuning ?? (genre.tuning === 'drop d' ? 'bass drop d' : 'bass');
     const b = addTrack(song, { name: 'Bass', kind: 'fretted', program: spec.bass?.instrument ?? 'Electric Bass (finger)', tuning });
     plan.forEach((s, i) => {
       let style = spec.bass?.style ?? genre.bass;
       if (s.energy < 0.45 && style !== 'walking') style = 'root';
-      bassLine(song, b, { from: s.bar, to: s.bar + s.bars, style, rng: rng.fork('bass' + i), palmMute: spec.genre === 'metal' || spec.genre === 'punk' });
+      bassLine(song, b, { from: s.bar, to: s.bar + s.bars, style, rng: rng.fork('bass' + i), palmMute: PALM_MUTED.test(spec.genre ?? '') });
     });
   }
 
@@ -120,8 +133,35 @@ export function arrange(spec = {}) {
   if (parts.guitar) {
     const tuning = spec.guitar?.tuning ?? genre.tuning ?? 'standard';
     const g = addTrack(song, { name: 'Rhythm Guitar', kind: 'fretted', program: spec.guitar?.instrument ?? genre.guitar, tuning });
+    const breakdowns = plan.filter(isBreakdown);
     plan.forEach((s, i) => {
-      let style = spec.guitar?.style ?? genre.comp;
+      if (isBreakdown(s) && meter[0] === 4 && meter[1] === 4) {
+        // escalate: the last breakdown takes the heaviest feel
+        const feels = genre.breakdown.feels ?? ['half'];
+        const idx = breakdowns.indexOf(s);
+        const feel = idx === breakdowns.length - 1 ? feels[feels.length - 1] : feels[0];
+        const r = breakdownRiff(song, g, { from: s.bar, to: s.bar + s.bars, drums: drumTrack, feel, rng: rng.fork('bd' + i) });
+        if (drumTrack) drumTrack.notes.push({ start: barStart(song, s.bar), dur: song.ppq / 4, pitch: 49, vel: 115 });
+        // the bass doubles the chug rhythm on the root
+        const bassT = song.tracks.find((t) => t.name === 'Bass');
+        if (bassT) {
+          const lo = Math.min(...bassT.tuning.map((t) => midi(t)));
+          const ds = barStart(song, s.bar);
+          const de = barStart(song, s.bar + s.bars - 1) + barLength(song, s.bar + s.bars - 1);
+          bassT.notes = bassT.notes.filter((n) => n.start < ds || n.start >= de);
+          let root = lo;
+          while (mod(root, 12) !== k.tonicPc) root++;
+          const seen = new Set();
+          for (const n of r.notes) {
+            if (seen.has(n.start)) continue;
+            seen.add(n.start);
+            bassT.notes.push({ start: n.start, dur: n.dur, pitch: root, vel: n.vel, fx: { pm: true } });
+          }
+          bassT.notes.sort((a, b) => a.start - b.start);
+        }
+        return;
+      }
+      let style = spec.guitar?.style ?? bySection(genre.sectionComps, s.name) ?? genre.comp;
       if (s.energy < 0.45 && ['power', 'gallop', 'strum'].includes(style)) style = style === 'strum' ? 'arpeggio' : 'power';
       comp(song, g, { from: s.bar, to: s.bar + s.bars, style, energy: s.energy, rng: rng.fork('gtr' + i), pattern: spec.guitar?.pattern });
     });

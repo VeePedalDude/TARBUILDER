@@ -214,50 +214,50 @@
   {
    "start": 107520,
    "dur": 3840,
-   "symbol": "Am",
-   "roman": "iv"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 111360,
    "dur": 3840,
-   "symbol": "D",
-   "roman": "VII"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 115200,
    "dur": 3840,
-   "symbol": "Am",
-   "roman": "iv"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 119040,
    "dur": 3840,
-   "symbol": "B7",
-   "roman": "V7"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 122880,
    "dur": 3840,
-   "symbol": "Am",
-   "roman": "iv"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 126720,
    "dur": 3840,
-   "symbol": "D",
-   "roman": "VII"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 130560,
    "dur": 3840,
-   "symbol": "Am",
-   "roman": "iv"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 134400,
    "dur": 3840,
-   "symbol": "B7",
-   "roman": "V7"
+   "symbol": "Em",
+   "roman": "i"
   },
   {
    "start": 138240,
@@ -4689,913 +4689,367 @@
      "start": 107520,
      "dur": 240,
      "pitch": 36,
-     "vel": 122
+     "vel": 112
     },
     {
      "start": 107520,
      "dur": 240,
-     "pitch": 49,
-     "vel": 115
-    },
-    {
-     "start": 107760,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 108000,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 108000,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 108240,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 114
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 108480,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 108480,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 119
-    },
-    {
-     "start": 108480,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 115
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 108720,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 108960,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 113
-    },
-    {
-     "start": 108960,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 109200,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 109440,
      "dur": 240,
-     "pitch": 36,
+     "pitch": 38,
      "vel": 120
     },
     {
      "start": 109440,
      "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 109680,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 109920,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 109920,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 110160,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
+     "vel": 112
     },
     {
      "start": 110400,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 110400,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 118
-    },
-    {
-     "start": 110400,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 115
-    },
-    {
-     "start": 110640,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 110880,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 110880,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 119
-    },
-    {
-     "start": 111120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 111360,
      "dur": 240,
      "pitch": 36,
-     "vel": 114
+     "vel": 112
     },
     {
      "start": 111360,
      "dur": 240,
-     "pitch": 51,
-     "vel": 117
-    },
-    {
-     "start": 111600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 111840,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 111840,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 112080,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 112320,
      "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 112320,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 119
-    },
-    {
-     "start": 112320,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 112560,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 112800,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 112800,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 113040,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 113280,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
+     "pitch": 38,
+     "vel": 120
     },
     {
      "start": 113280,
      "dur": 240,
-     "pitch": 51,
-     "vel": 116
-    },
-    {
-     "start": 113520,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 113760,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 113760,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 115
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 114000,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 114240,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 114240,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 119
-    },
-    {
-     "start": 114240,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
-    },
-    {
-     "start": 114480,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 114720,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 114720,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 121
-    },
-    {
-     "start": 114960,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 115200,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
+     "vel": 112
     },
     {
      "start": 115200,
      "dur": 240,
-     "pitch": 51,
-     "vel": 119
-    },
-    {
-     "start": 115440,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 115680,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 115680,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 115920,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 116160,
      "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 116160,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 121
-    },
-    {
-     "start": 116160,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 116400,
      "dur": 240,
      "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 116640,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 116640,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 116880,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 112
     },
     {
      "start": 117120,
      "dur": 240,
-     "pitch": 36,
+     "pitch": 38,
      "vel": 120
     },
     {
      "start": 117120,
      "dur": 240,
-     "pitch": 51,
-     "vel": 119
-    },
-    {
-     "start": 117360,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 117600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 117600,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 119
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 117840,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 118080,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 118080,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 118080,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 121
-    },
-    {
-     "start": 118320,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 118560,
      "dur": 240,
      "pitch": 36,
-     "vel": 122
-    },
-    {
-     "start": 118560,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 118800,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 119040,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 119040,
      "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 119280,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 119520,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 119520,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
-    },
-    {
-     "start": 119760,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 120000,
      "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 120000,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 118
-    },
-    {
-     "start": 120000,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 120240,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 120480,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 120480,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 120720,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 120960,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
+     "pitch": 38,
+     "vel": 120
     },
     {
      "start": 120960,
      "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 121200,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 121440,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 121440,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 121680,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 121920,
      "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 121920,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 118
-    },
-    {
-     "start": 121920,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 120
-    },
-    {
-     "start": 122160,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 122400,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 122400,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 119
-    },
-    {
-     "start": 122640,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 122880,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 112
     },
     {
      "start": 122880,
      "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 123120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 123360,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 123360,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
-    },
-    {
-     "start": 123600,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 123840,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 123840,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 121
-    },
-    {
-     "start": 123840,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 113
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 124080,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 124320,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 124320,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 124560,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 124800,
      "dur": 240,
-     "pitch": 36,
-     "vel": 118
+     "pitch": 38,
+     "vel": 120
     },
     {
      "start": 124800,
      "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 125040,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 125280,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 125280,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 125520,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 125760,
      "dur": 240,
-     "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 125760,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 125760,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 126000,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 112
     },
     {
      "start": 126240,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 126240,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 126480,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 126720,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 126720,
      "dur": 240,
-     "pitch": 51,
-     "vel": 117
-    },
-    {
-     "start": 126960,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 127200,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 127200,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
-    },
-    {
-     "start": 127440,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 120
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 127680,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 127680,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 117
-    },
-    {
-     "start": 127680,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 127920,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 128160,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 121
-    },
-    {
-     "start": 128160,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 128400,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 128640,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
+     "pitch": 38,
+     "vel": 120
     },
     {
      "start": 128640,
      "dur": 240,
-     "pitch": 51,
-     "vel": 119
-    },
-    {
-     "start": 128880,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 129120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 115
-    },
-    {
-     "start": 129120,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 129360,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 129600,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 129600,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 114
-    },
-    {
-     "start": 129600,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 129840,
@@ -5607,325 +5061,157 @@
      "start": 130080,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
-    },
-    {
-     "start": 130080,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 130320,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 130560,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 130560,
-     "dur": 240,
-     "pitch": 51,
      "vel": 112
     },
     {
-     "start": 130800,
+     "start": 130560,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
-     "start": 131040,
+     "start": 130560,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 131040,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 117
-    },
-    {
-     "start": 131280,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 131520,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 131520,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 115
-    },
-    {
-     "start": 131520,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 120
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 131760,
      "dur": 240,
      "pitch": 36,
-     "vel": 120
-    },
-    {
-     "start": 132000,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 132000,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 132240,
      "dur": 240,
      "pitch": 36,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 132480,
      "dur": 240,
-     "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 132480,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 118
-    },
-    {
-     "start": 132720,
-     "dur": 240,
-     "pitch": 36,
+     "pitch": 38,
      "vel": 120
     },
     {
-     "start": 132960,
+     "start": 132480,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 132960,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 119
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 133200,
      "dur": 240,
      "pitch": 36,
-     "vel": 121
+     "vel": 112
     },
     {
      "start": 133440,
      "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 133440,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 116
-    },
-    {
-     "start": 133440,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 122
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 133680,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
+     "vel": 112
     },
     {
      "start": 133920,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 133920,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 116
+     "vel": 112
     },
     {
      "start": 134160,
      "dur": 240,
      "pitch": 36,
-     "vel": 117
+     "vel": 112
     },
     {
      "start": 134400,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 134400,
      "dur": 240,
-     "pitch": 51,
-     "vel": 120
-    },
-    {
-     "start": 134640,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 134880,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 117
-    },
-    {
-     "start": 134880,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 114
-    },
-    {
-     "start": 135120,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 116
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 135360,
      "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 135360,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 116
-    },
-    {
-     "start": 135360,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 120
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 135600,
      "dur": 240,
      "pitch": 36,
-     "vel": 119
-    },
-    {
-     "start": 135840,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 118
-    },
-    {
-     "start": 135840,
-     "dur": 240,
-     "pitch": 51,
-     "vel": 119
+     "vel": 112
     },
     {
      "start": 136080,
      "dur": 240,
      "pitch": 36,
-     "vel": 118
+     "vel": 112
     },
     {
      "start": 136320,
      "dur": 240,
-     "pitch": 36,
-     "vel": 90
+     "pitch": 38,
+     "vel": 120
     },
     {
      "start": 136320,
      "dur": 240,
-     "pitch": 50,
-     "vel": 99
-    },
-    {
-     "start": 136560,
-     "dur": 240,
-     "pitch": 50,
-     "vel": 110
-    },
-    {
-     "start": 136800,
-     "dur": 240,
-     "pitch": 36,
-     "vel": 90
-    },
-    {
-     "start": 136800,
-     "dur": 240,
-     "pitch": 48,
-     "vel": 82
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 137040,
      "dur": 240,
-     "pitch": 48,
-     "vel": 82
-    },
-    {
-     "start": 137280,
-     "dur": 240,
      "pitch": 36,
-     "vel": 90
+     "vel": 112
     },
     {
      "start": 137280,
      "dur": 240,
-     "pitch": 47,
-     "vel": 99
+     "pitch": 52,
+     "vel": 105
     },
     {
      "start": 137520,
      "dur": 240,
-     "pitch": 47,
-     "vel": 98
+     "pitch": 36,
+     "vel": 112
     },
     {
      "start": 137760,
      "dur": 240,
      "pitch": 36,
-     "vel": 90
-    },
-    {
-     "start": 137760,
-     "dur": 240,
-     "pitch": 43,
-     "vel": 90
+     "vel": 112
     },
     {
      "start": 138000,
      "dur": 240,
-     "pitch": 43,
-     "vel": 102
+     "pitch": 36,
+     "vel": 112
     },
     {
      "start": 138240,
@@ -7786,6 +7072,12 @@
      "dur": 240,
      "pitch": 43,
      "vel": 99
+    },
+    {
+     "start": 107520,
+     "dur": 240,
+     "pitch": 49,
+     "vel": 115
     }
    ]
   },
@@ -9820,71 +9112,44 @@
     {
      "start": 107520,
      "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 108000,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "start": 108720,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 108480,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 109200,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 108960,
+     "start": 110160,
      "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 109440,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 109920,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 110400,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 110880,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -9892,71 +9157,44 @@
     {
      "start": 111360,
      "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 111840,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
+     "start": 112560,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 112320,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "start": 113040,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 112800,
+     "start": 114000,
      "dur": 480,
-     "pitch": 26,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 113280,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 113760,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 114240,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 114720,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -9964,71 +9202,44 @@
     {
      "start": 115200,
      "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 115680,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "start": 116400,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 116160,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 116880,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 116640,
+     "start": 117840,
      "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 117120,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 117600,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 118080,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 118560,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -10036,71 +9247,44 @@
     {
      "start": 119040,
      "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 119520,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
+     "start": 120240,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 120000,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "start": 120720,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 120480,
+     "start": 121680,
      "dur": 480,
-     "pitch": 35,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 120960,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 121440,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 121920,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 122400,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -10108,71 +9292,62 @@
     {
      "start": 122880,
      "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 123360,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "start": 124080,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 123840,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 124560,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 124320,
+     "start": 125520,
      "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 124800,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 125280,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 125760,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 126000,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 126240,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
+     "fx": {
+      "pm": true
+     }
+    },
+    {
+     "start": 126480,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -10180,71 +9355,62 @@
     {
      "start": 126720,
      "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 127200,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
+     "start": 127920,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 127680,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "start": 128400,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 128160,
+     "start": 129360,
      "dur": 480,
-     "pitch": 26,
-     "vel": 90,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 128640,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 129120,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 129600,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 105,
+     "start": 129840,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 130080,
-     "dur": 480,
-     "pitch": 26,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
+     "fx": {
+      "pm": true
+     }
+    },
+    {
+     "start": 130320,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -10252,71 +9418,62 @@
     {
      "start": 130560,
      "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 131040,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "start": 131760,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 131520,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 132240,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 132000,
+     "start": 133200,
      "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 132480,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 132960,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 133440,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 105,
+     "start": 133680,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 133920,
-     "dur": 480,
-     "pitch": 33,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
+     "fx": {
+      "pm": true
+     }
+    },
+    {
+     "start": 134160,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -10324,71 +9481,62 @@
     {
      "start": 134400,
      "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 134880,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
+     "start": 135600,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 135360,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "start": 136080,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 135840,
+     "start": 137040,
      "dur": 480,
-     "pitch": 35,
-     "vel": 90,
+     "pitch": 28,
+     "vel": 118,
      "fx": {
       "pm": true
      }
     },
     {
-     "start": 136320,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 136800,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 137280,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 105,
+     "start": 137520,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
     },
     {
      "start": 137760,
-     "dur": 480,
-     "pitch": 35,
-     "vel": 90,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
+     "fx": {
+      "pm": true
+     }
+    },
+    {
+     "start": 138000,
+     "dur": 240,
+     "pitch": 28,
+     "vel": 100,
      "fx": {
       "pm": true
      }
@@ -15336,1162 +14484,586 @@
     {
      "start": 107520,
      "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 107520,
      "dur": 480,
-     "pitch": 52,
-     "vel": 110,
-     "string": 4,
-     "fret": 2
-    },
-    {
-     "start": 107520,
-     "dur": 480,
-     "pitch": 57,
-     "vel": 110,
-     "string": 3,
-     "fret": 2
-    },
-    {
-     "start": 108000,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
+     "vel": 118,
      "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "fret": 2,
+     "pitch": 47
     },
     {
-     "start": 108240,
+     "start": 108720,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 108480,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 108960,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 109200,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 109440,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 109920,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 110160,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 110400,
      "dur": 480,
-     "pitch": 45,
-     "vel": 100,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "vel": 118,
+     "string": 6,
+     "fret": 3,
+     "pitch": 41
     },
     {
      "start": 110880,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 111120,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 111360,
-     "dur": 480,
-     "pitch": 38,
-     "vel": 110,
-     "string": 6,
-     "fret": 0
-    },
-    {
-     "start": 111360,
-     "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
-    },
-    {
-     "start": 111360,
-     "dur": 480,
-     "pitch": 50,
-     "vel": 110,
-     "string": 4,
-     "fret": 0
-    },
-    {
-     "start": 111840,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 112080,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 112320,
-     "dur": 480,
-     "pitch": 38,
      "vel": 100,
-     "string": 6,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 112800,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     "start": 111360,
+     "dur": 480,
+     "vel": 118,
      "string": 6,
-     "fret": 0,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 111360,
+     "dur": 480,
+     "vel": 118,
+     "string": 5,
+     "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 112560,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 113040,
      "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 113280,
-     "dur": 480,
-     "pitch": 38,
      "vel": 100,
-     "string": 6,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 113760,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     },
      "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 114000,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     "dur": 480,
+     "vel": 118,
      "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 114240,
+     "start": 114000,
      "dur": 480,
-     "pitch": 38,
-     "vel": 100,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "vel": 118,
+     "string": 4,
+     "fret": 2,
+     "pitch": 52
     },
     {
      "start": 114720,
      "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 114960,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 115200,
-     "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
-    },
-    {
-     "start": 115200,
-     "dur": 480,
-     "pitch": 52,
-     "vel": 110,
-     "string": 4,
-     "fret": 2
-    },
-    {
-     "start": 115200,
-     "dur": 480,
-     "pitch": 57,
-     "vel": 110,
-     "string": 3,
-     "fret": 2
-    },
-    {
-     "start": 115680,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 115920,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 116160,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 116640,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
+     "start": 115200,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 115200,
+     "dur": 480,
+     "vel": 118,
      "string": 5,
-     "fret": 0,
+     "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 116400,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 116880,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 117120,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 117600,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 117840,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 118080,
      "dur": 480,
-     "pitch": 45,
-     "vel": 100,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "vel": 118,
+     "string": 6,
+     "fret": 3,
+     "pitch": 41
     },
     {
      "start": 118560,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 118800,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 119040,
-     "dur": 480,
-     "pitch": 47,
-     "vel": 110,
-     "string": 5,
-     "fret": 2
-    },
-    {
-     "start": 119040,
-     "dur": 480,
-     "pitch": 54,
-     "vel": 110,
-     "string": 4,
-     "fret": 4
-    },
-    {
-     "start": 119040,
-     "dur": 480,
-     "pitch": 59,
-     "vel": 110,
-     "string": 3,
-     "fret": 4
-    },
-    {
-     "start": 119520,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 119760,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 120000,
-     "dur": 480,
-     "pitch": 47,
      "vel": 100,
-     "string": 5,
-     "fret": 2,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 120480,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
+     "start": 119040,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 119040,
+     "dur": 480,
+     "vel": 118,
      "string": 5,
      "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 120240,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 120720,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 120960,
-     "dur": 480,
-     "pitch": 47,
      "vel": 100,
-     "string": 5,
-     "fret": 2,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 121440,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
+     },
+     "string": 6,
      "fret": 2,
-     "fx": {
-      "pm": true
-     }
+     "pitch": 40
     },
     {
      "start": 121680,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 121920,
      "dur": 480,
-     "pitch": 47,
-     "vel": 100,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
+     "vel": 118,
+     "string": 6,
+     "fret": 3,
+     "pitch": 41
     },
     {
      "start": 122400,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 122640,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 122880,
-     "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
-    },
-    {
-     "start": 122880,
-     "dur": 480,
-     "pitch": 52,
-     "vel": 110,
-     "string": 4,
-     "fret": 2
-    },
-    {
-     "start": 122880,
-     "dur": 480,
-     "pitch": 57,
-     "vel": 110,
-     "string": 3,
-     "fret": 2
-    },
-    {
-     "start": 123360,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 123600,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 123840,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 124320,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
+     "start": 122880,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 122880,
+     "dur": 480,
+     "vel": 118,
      "string": 5,
-     "fret": 0,
+     "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 124080,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 124560,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 124800,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 125280,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 125520,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 125760,
+     "start": 125520,
      "dur": 480,
-     "pitch": 45,
+     "vel": 118,
+     "string": 4,
+     "fret": 2,
+     "pitch": 52
+    },
+    {
+     "start": 126000,
+     "dur": 240,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 126240,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 126480,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 126720,
-     "dur": 480,
-     "pitch": 38,
-     "vel": 110,
-     "string": 6,
-     "fret": 0
-    },
-    {
-     "start": 126720,
-     "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
-    },
-    {
-     "start": 126720,
-     "dur": 480,
-     "pitch": 50,
-     "vel": 110,
-     "string": 4,
-     "fret": 0
-    },
-    {
-     "start": 127200,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 127440,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 127680,
-     "dur": 480,
-     "pitch": 38,
      "vel": 100,
-     "string": 6,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 128160,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     "start": 126720,
+     "dur": 480,
+     "vel": 118,
      "string": 6,
-     "fret": 0,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 126720,
+     "dur": 480,
+     "vel": 118,
+     "string": 5,
+     "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 127920,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 128400,
      "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 128640,
-     "dur": 480,
-     "pitch": 38,
      "vel": 100,
-     "string": 6,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 129120,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     },
      "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 129360,
-     "dur": 240,
-     "pitch": 38,
-     "vel": 90,
+     "dur": 480,
+     "vel": 118,
      "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 129600,
+     "start": 129360,
      "dur": 480,
-     "pitch": 38,
+     "vel": 118,
+     "string": 4,
+     "fret": 2,
+     "pitch": 52
+    },
+    {
+     "start": 129840,
+     "dur": 240,
      "vel": 100,
-     "string": 6,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 130080,
      "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 130320,
      "dur": 240,
-     "pitch": 38,
-     "vel": 90,
-     "string": 6,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 130560,
-     "dur": 480,
-     "pitch": 45,
-     "vel": 110,
-     "string": 5,
-     "fret": 0
-    },
-    {
-     "start": 130560,
-     "dur": 480,
-     "pitch": 52,
-     "vel": 110,
-     "string": 4,
-     "fret": 2
-    },
-    {
-     "start": 130560,
-     "dur": 480,
-     "pitch": 57,
-     "vel": 110,
-     "string": 3,
-     "fret": 2
-    },
-    {
-     "start": 131040,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 131280,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 131520,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 132000,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
+     "start": 130560,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 130560,
+     "dur": 480,
+     "vel": 118,
      "string": 5,
-     "fret": 0,
+     "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 131760,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 132240,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 132480,
-     "dur": 480,
-     "pitch": 45,
      "vel": 100,
-     "string": 5,
-     "fret": 0,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 132960,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 133200,
-     "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 133440,
+     "start": 133200,
      "dur": 480,
-     "pitch": 45,
-     "vel": 100,
+     "vel": 118,
      "string": 5,
-     "fret": 0,
+     "fret": 1,
+     "pitch": 46
+    },
+    {
+     "start": 133680,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 133920,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 134160,
      "dur": 240,
-     "pitch": 45,
-     "vel": 90,
-     "string": 5,
-     "fret": 0,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 134400,
-     "dur": 480,
-     "pitch": 47,
-     "vel": 110,
-     "string": 5,
-     "fret": 2
-    },
-    {
-     "start": 134400,
-     "dur": 480,
-     "pitch": 54,
-     "vel": 110,
-     "string": 4,
-     "fret": 4
-    },
-    {
-     "start": 134400,
-     "dur": 480,
-     "pitch": 59,
-     "vel": 110,
-     "string": 3,
-     "fret": 4
-    },
-    {
-     "start": 134880,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 135120,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 135360,
-     "dur": 480,
-     "pitch": 47,
      "vel": 100,
-     "string": 5,
-     "fret": 2,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
-     "start": 135840,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
+     "start": 134400,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
+    },
+    {
+     "start": 134400,
+     "dur": 480,
+     "vel": 118,
      "string": 5,
      "fret": 2,
+     "pitch": 47
+    },
+    {
+     "start": 135600,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 136080,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
-     "fx": {
-      "pm": true
-     }
-    },
-    {
-     "start": 136320,
-     "dur": 480,
-     "pitch": 47,
      "vel": 100,
-     "string": 5,
-     "fret": 2,
      "fx": {
       "pm": true
-     }
-    },
-    {
-     "start": 136800,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
+     },
+     "string": 6,
      "fret": 2,
-     "fx": {
-      "pm": true
-     }
+     "pitch": 40
     },
     {
      "start": 137040,
-     "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
+     "dur": 480,
+     "vel": 118,
+     "string": 6,
      "fret": 2,
-     "fx": {
-      "pm": true
-     }
+     "pitch": 40
     },
     {
-     "start": 137280,
+     "start": 137040,
      "dur": 480,
-     "pitch": 47,
-     "vel": 100,
+     "vel": 118,
      "string": 5,
-     "fret": 2,
+     "fret": 1,
+     "pitch": 46
+    },
+    {
+     "start": 137520,
+     "dur": 240,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 137760,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 138000,
      "dur": 240,
-     "pitch": 47,
-     "vel": 90,
-     "string": 5,
-     "fret": 2,
+     "vel": 100,
      "fx": {
       "pm": true
-     }
+     },
+     "string": 6,
+     "fret": 2,
+     "pitch": 40
     },
     {
      "start": 138240,
